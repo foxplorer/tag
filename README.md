@@ -8,7 +8,7 @@
 [![Bitcoin SV](https://img.shields.io/badge/Bitcoin%20SV-EAB300?style=flat&logo=bitcoin&logoColor=white)](https://bitcoinsv.com/)
 
 ## 🎮 Game Overview
-
+<img width="1207" height="804" alt="tag" src="https://github.com/user-attachments/assets/863269bf-6cd6-491b-9720-5ffbb8901bcc" />
 tag is a real-time multiplayer game built on Bitcoin SV's 1SatOrdinals protocol, featuring the iconic **10 million Pixel Foxes** from [Pixel Foxes](https://x.com/foxespixel). Since its launch on **September 21, 2024 at 3:18:09 PM**, the game has facilitated **428+ tags** across **10 million potential players**. Will tag become the largest and most well-documented game of tag ever?
 
 ### 🚀 Key Features
