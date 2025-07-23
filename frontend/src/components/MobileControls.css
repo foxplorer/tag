@@ -1,0 +1,206 @@
+.mobile-controls {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  pointer-events: none;
+  align-items: center;
+  width: 200px;
+}
+
+/* Shoot button positioned at bottom left */
+.shoot-button {
+  position: fixed;
+  bottom: 60px;
+  left: 20px;
+  z-index: 1000;
+  pointer-events: auto;
+}
+
+/* Fullscreen adjustments - using higher z-index to ensure visibility */
+.mobile-controls {
+  z-index: 10000 !important;
+}
+
+.shoot-button {
+  z-index: 10000 !important;
+}
+
+.zoom-controls {
+  z-index: 10000 !important;
+}
+
+.mobile-controls > * {
+  pointer-events: auto;
+}
+
+/* Joystick */
+.joystick-container {
+  position: relative;
+  /* Make the touch area larger than the visual joystick */
+  padding: 20px;
+  /* Center the joystick in the mobile controls */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 160px;
+}
+
+.joystick-base {
+  width: 120px;
+  height: 120px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+}
+
+.joystick-thumb {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  transition: transform 0.1s ease;
+}
+
+.joystick-base.boost-active {
+  border-color: rgba(255, 193, 7, 0.8);
+  box-shadow: 0 0 20px rgba(255, 193, 7, 0.5);
+}
+
+.joystick-thumb.boost-active {
+  background: rgba(255, 193, 7, 0.9);
+  box-shadow: 0 0 15px rgba(255, 193, 7, 0.7);
+}
+
+/* Zoom Controls - positioned at bottom right */
+.zoom-controls {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  pointer-events: auto;
+}
+
+.zoom-btn {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: background-color 0.2s ease;
+}
+
+.zoom-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.zoom-btn:active {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.fullscreen-btn {
+  font-size: 18px !important;
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.action-btn {
+  padding: 12px 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.boost-btn:hover {
+  background: rgba(255, 193, 7, 0.3);
+  border-color: rgba(255, 193, 7, 0.7);
+}
+
+.shoot-btn:hover {
+  background: rgba(220, 53, 69, 0.3);
+  border-color: rgba(220, 53, 69, 0.7);
+}
+
+.action-btn:active {
+  transform: scale(0.95);
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .mobile-controls {
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 15px;
+  }
+  
+  .shoot-button {
+    bottom: 50px;
+  }
+  
+  .zoom-controls {
+    bottom: 50px;
+  }
+  
+  .joystick-base {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .joystick-thumb {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .zoom-btn {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+  
+  .action-btn {
+    padding: 10px 16px;
+    font-size: 12px;
+  }
+}
+
+/* Ensure controls are always visible in fullscreen mode */
+.mobile-controls,
+.shoot-button,
+.zoom-controls {
+  position: fixed !important;
+  z-index: 10000 !important;
+} 

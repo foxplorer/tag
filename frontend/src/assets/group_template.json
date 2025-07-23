@@ -1,0 +1,28 @@
+{
+    "foxGroup": "[your group name]",
+    "description": "",
+    "type": "",
+    "group": [
+        {
+            "origin.outpoint": "[1st fox origin.outpoint]",
+            "foxData": {
+                "foxName": "[1st fox group member name]",
+                "pixelFoxName": "[1st pixel fox name]"
+            }
+        },
+        {
+            "origin.outpoint": "[2nd fox origin.outpoint]",
+            "foxData": {
+                "foxName": "[2nd fox group member name]",
+                "pixelFoxName": "[2nd pixel fox name]"
+            }
+        },
+        {
+            "origin.outpoint": "[3rd fox origin.outpoint]",
+            "foxData": {
+                "foxName": "[3rd fox group member name]",
+                "pixelFoxName": "[3rd pixel fox name]"
+            }
+        }
+    ]
+}

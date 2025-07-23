@@ -1,0 +1,1104 @@
+{
+    "foxGroup": "Early Taggers",
+    "group": [
+        {
+            "origin.outpoint": "091a2b25bdebc5cd8ed80388af3e98e1b02712b76d124a12268567b0fe01b8b2_28",
+            "foxData": {
+                "foxName": "Early Tagger #1",
+                "pixelFoxName": "Pixel Foxes #2471896"
+            }
+        },
+        {
+            "origin.outpoint": "3a4745ab0f58a72e2e10dd131243e459e8188a99b4161ab710f324de4f7cc075_243",
+            "foxData": {
+                "foxName": "Early Tagger #2",
+                "pixelFoxName": "Pixel Foxes #2474521"
+            }
+        },
+        {
+            "origin.outpoint": "a79e395f92626f16fb04ae7efd0f2ecd1d491bea0017a6f387708698fe0efe80_14",
+            "foxData": {
+                "foxName": "Early Tagger #3",
+                "pixelFoxName": "Pixel Foxes #2473992"
+            }
+        },
+        {
+            "origin.outpoint": "428e70a7e0d222c2ddf396d96f87b8825633d7402803bc2b933d33493f25b284_228",
+            "foxData": {
+                "foxName": "Early Tagger #4",
+                "pixelFoxName": "Pixel Foxes #2475406"
+            }
+        },
+        {
+            "origin.outpoint": "a79e395f92626f16fb04ae7efd0f2ecd1d491bea0017a6f387708698fe0efe80_198",
+            "foxData": {
+                "foxName": "Early Tagger #5",
+                "pixelFoxName": "Pixel Foxes #2474176"
+            }
+        },
+        {
+            "origin.outpoint": "428e70a7e0d222c2ddf396d96f87b8825633d7402803bc2b933d33493f25b284_142",
+            "foxData": {
+                "foxName": "Early Tagger #6",
+                "pixelFoxName": "Pixel Foxes #2475320"
+            }
+        },
+        {
+            "origin.outpoint": "428e70a7e0d222c2ddf396d96f87b8825633d7402803bc2b933d33493f25b284_165",
+            "foxData": {
+                "foxName": "Early Tagger #7",
+                "pixelFoxName": "Pixel Foxes #2475343"
+            }
+        },
+        {
+            "origin.outpoint": "9dcb789e8aa252f00a1fa631c6058706be931e6d73af34095fb9411db78dcb6b_81",
+            "foxData": {
+                "foxName": "Early Tagger #8",
+                "pixelFoxName": "Pixel Foxes #2442740"
+            }
+        },
+        {
+            "origin.outpoint": "428e70a7e0d222c2ddf396d96f87b8825633d7402803bc2b933d33493f25b284_200",
+            "foxData": {
+                "foxName": "Early Tagger #9",
+                "pixelFoxName": "Pixel Foxes #2475378"
+            }
+        },
+        {
+            "origin.outpoint": "d33315c4ac1e6c48674c4c033263d78397f8d832e2d4cdc8adfed47bc6ed08f4_4",
+            "foxData": {
+                "foxName": "Early Tagger #10",
+                "pixelFoxName": "Pixel Foxes #2486334"
+            }
+        },
+        {
+            "origin.outpoint": "54f3b1cf35b7178ff59ee7d88e907a241bd564cacea40f3fc34df38bebba3b29_142",
+            "foxData": {
+                "foxName": "Early Tagger #11",
+                "pixelFoxName": "Pixel Foxes #2475620"
+            }
+        },
+        {
+            "origin.outpoint": "6503af932dc8c1b392ae53bda0a3851614f705a620d456be9590b2d8562689ad_2",
+            "foxData": {
+                "foxName": "Early Tagger #12",
+                "pixelFoxName": "Pixel Foxes #2489332"
+            }
+        },
+        {
+            "origin.outpoint": "3a4745ab0f58a72e2e10dd131243e459e8188a99b4161ab710f324de4f7cc075_195",
+            "foxData": {
+                "foxName": "Early Tagger #13",
+                "pixelFoxName": "Pixel Foxes #2474473"
+            }
+        },
+        {
+            "origin.outpoint": "4ee01c4e39b2f79f508b1b91d5e4ff24771bfd73e575c3ebd12909456a104444_81",
+            "foxData": {
+                "foxName": "Early Tagger #14",
+                "pixelFoxName": "Pixel Foxes #1838988"
+            }
+        },
+        {
+            "origin.outpoint": "a79e395f92626f16fb04ae7efd0f2ecd1d491bea0017a6f387708698fe0efe80_151",
+            "foxData": {
+                "foxName": "Early Tagger #15",
+                "pixelFoxName": "Pixel Foxes #2474129"
+            }
+        },
+        {
+            "origin.outpoint": "ffefd86f8bc323fcabf35baf87015acf4195dbdd74e9f97276e5908c0490e4fb_65",
+            "foxData": {
+                "foxName": "Early Tagger #16",
+                "pixelFoxName": "Pixel Foxes #1923697"
+            }
+        },
+        {
+            "origin.outpoint": "45bf524a94404d5587d1d8c77500b513aea983fa391651718ab86b366abde20d_60",
+            "foxData": {
+                "foxName": "Early Tagger #17",
+                "pixelFoxName": "Pixel Foxes #984013"
+            }
+        },
+        {
+            "origin.outpoint": "3a4745ab0f58a72e2e10dd131243e459e8188a99b4161ab710f324de4f7cc075_129",
+            "foxData": {
+                "foxName": "Early Tagger #18",
+                "pixelFoxName": "Pixel Foxes #2474407"
+            }
+        },
+        {
+            "origin.outpoint": "f4f9a54d280358fb9cede26f44326f2c18d344a6880e6d069e1297082688329d_32",
+            "foxData": {
+                "foxName": "Early Tagger #19",
+                "pixelFoxName": "Pixel Foxes #2488162"
+            }
+        },
+        {
+            "origin.outpoint": "a79e395f92626f16fb04ae7efd0f2ecd1d491bea0017a6f387708698fe0efe80_105",
+            "foxData": {
+                "foxName": "Early Tagger #20",
+                "pixelFoxName": "Pixel Foxes #2474083"
+            }
+        },
+        {
+            "origin.outpoint": "37e28dfd458f09992e9644f1d022348c960bb308c6dd6581f2b74b1d203bddde_82",
+            "foxData": {
+                "foxName": "Early Tagger #21",
+                "pixelFoxName": "Pixel Foxes #2441127"
+            }
+        },
+        {
+            "origin.outpoint": "3a4745ab0f58a72e2e10dd131243e459e8188a99b4161ab710f324de4f7cc075_298",
+            "foxData": {
+                "foxName": "Early Tagger #22",
+                "pixelFoxName": "Pixel Foxes #2474576"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_59",
+            "foxData": {
+                "foxName": "Early Tagger #23",
+                "pixelFoxName": "Pixel Foxes #2445166"
+            }
+        },
+        {
+            "origin.outpoint": "3a4745ab0f58a72e2e10dd131243e459e8188a99b4161ab710f324de4f7cc075_285",
+            "foxData": {
+                "foxName": "Early Tagger #24",
+                "pixelFoxName": "Pixel Foxes #2474563"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_65",
+            "foxData": {
+                "foxName": "Early Tagger #25",
+                "pixelFoxName": "Pixel Foxes #2445172"
+            }
+        },
+        {
+            "origin.outpoint": "428e70a7e0d222c2ddf396d96f87b8825633d7402803bc2b933d33493f25b284_213",
+            "foxData": {
+                "foxName": "Early Tagger #26",
+                "pixelFoxName": "Pixel Foxes #2475391"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_55",
+            "foxData": {
+                "foxName": "Early Tagger #27",
+                "pixelFoxName": "Pixel Foxes #2445162"
+            }
+        },
+        {
+            "origin.outpoint": "a79e395f92626f16fb04ae7efd0f2ecd1d491bea0017a6f387708698fe0efe80_124",
+            "foxData": {
+                "foxName": "Early Tagger #28",
+                "pixelFoxName": "Pixel Foxes #2474102"
+            }
+        },
+        {
+            "origin.outpoint": "c6294711ed48a3eb3f0f114c750e72d630ba15d2b20284ff47fa002e1ac42cbd_278",
+            "foxData": {
+                "foxName": "Early Tagger #29",
+                "pixelFoxName": "Pixel Foxes #2473656"
+            }
+        },
+        {
+            "origin.outpoint": "a79e395f92626f16fb04ae7efd0f2ecd1d491bea0017a6f387708698fe0efe80_98",
+            "foxData": {
+                "foxName": "Early Tagger #30",
+                "pixelFoxName": "Pixel Foxes #2474076"
+            }
+        },
+        {
+            "origin.outpoint": "37e28dfd458f09992e9644f1d022348c960bb308c6dd6581f2b74b1d203bddde_98",
+            "foxData": {
+                "foxName": "Early Tagger #31",
+                "pixelFoxName": "Pixel Foxes #2441143"
+            }
+        },
+        {
+            "origin.outpoint": "6cf42412c6d002330bc6eb71f1edfed2784bee961e6b4f428e74c9d4876b4412_29",
+            "foxData": {
+                "foxName": "Early Tagger #32",
+                "pixelFoxName": "Pixel Foxes #2335396"
+            }
+        },
+        {
+            "origin.outpoint": "cb1fbc9d327a5bf677cbd3b1966e784ebd4662059e55580dc99d4e0b29c957d0_93",
+            "foxData": {
+                "foxName": "Early Tagger #33",
+                "pixelFoxName": "Pixel Foxes #405767"
+            }
+        },
+        {
+            "origin.outpoint": "37e28dfd458f09992e9644f1d022348c960bb308c6dd6581f2b74b1d203bddde_95",
+            "foxData": {
+                "foxName": "Early Tagger #34",
+                "pixelFoxName": "Pixel Foxes #2441140"
+            }
+        },
+        {
+            "origin.outpoint": "dc8e19e5bd50fd778646133d71e2f8f359689bc84cd6eec992208d97bcf75e26_59",
+            "foxData": {
+                "foxName": "Early Tagger #35",
+                "pixelFoxName": "Pixel Foxes #1962858"
+            }
+        },
+        {
+            "origin.outpoint": "54f3b1cf35b7178ff59ee7d88e907a241bd564cacea40f3fc34df38bebba3b29_295",
+            "foxData": {
+                "foxName": "Early Tagger #36",
+                "pixelFoxName": "Pixel Foxes #2475773"
+            }
+        },
+        {
+            "origin.outpoint": "679f892f5edee94109e89db984a12f01319e9bea486c70f363993e787076ce1c_26",
+            "foxData": {
+                "foxName": "Early Tagger #37",
+                "pixelFoxName": "Pixel Foxes #1192104"
+            }
+        },
+        {
+            "origin.outpoint": "428e70a7e0d222c2ddf396d96f87b8825633d7402803bc2b933d33493f25b284_229",
+            "foxData": {
+                "foxName": "Early Tagger #38",
+                "pixelFoxName": "Pixel Foxes #2475407"
+            }
+        },
+        {
+            "origin.outpoint": "45bf524a94404d5587d1d8c77500b513aea983fa391651718ab86b366abde20d_8",
+            "foxData": {
+                "foxName": "Early Tagger #39",
+                "pixelFoxName": "Pixel Foxes #983961"
+            }
+        },
+        {
+            "origin.outpoint": "428e70a7e0d222c2ddf396d96f87b8825633d7402803bc2b933d33493f25b284_224",
+            "foxData": {
+                "foxName": "Early Tagger #40",
+                "pixelFoxName": "Pixel Foxes #2475402"
+            }
+        },
+        {
+            "origin.outpoint": "428e70a7e0d222c2ddf396d96f87b8825633d7402803bc2b933d33493f25b284_196",
+            "foxData": {
+                "foxName": "Early Tagger #41",
+                "pixelFoxName": "Pixel Foxes #2475374"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_58",
+            "foxData": {
+                "foxName": "Early Tagger #42",
+                "pixelFoxName": "Pixel Foxes #2445165"
+            }
+        },
+        {
+            "origin.outpoint": "45bf524a94404d5587d1d8c77500b513aea983fa391651718ab86b366abde20d_32",
+            "foxData": {
+                "foxName": "Early Tagger #43",
+                "pixelFoxName": "Pixel Foxes #983985"
+            }
+        },
+        {
+            "origin.outpoint": "a79e395f92626f16fb04ae7efd0f2ecd1d491bea0017a6f387708698fe0efe80_113",
+            "foxData": {
+                "foxName": "Early Tagger #44",
+                "pixelFoxName": "Pixel Foxes #2474091"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_73",
+            "foxData": {
+                "foxName": "Early Tagger #45",
+                "pixelFoxName": "Pixel Foxes #2445180"
+            }
+        },
+        {
+            "origin.outpoint": "428e70a7e0d222c2ddf396d96f87b8825633d7402803bc2b933d33493f25b284_245",
+            "foxData": {
+                "foxName": "Early Tagger #46",
+                "pixelFoxName": "Pixel Foxes #2475423"
+            }
+        },
+        {
+            "origin.outpoint": "37e28dfd458f09992e9644f1d022348c960bb308c6dd6581f2b74b1d203bddde_27",
+            "foxData": {
+                "foxName": "Early Tagger #47",
+                "pixelFoxName": "Pixel Foxes #2441072"
+            }
+        },
+        {
+            "origin.outpoint": "428e70a7e0d222c2ddf396d96f87b8825633d7402803bc2b933d33493f25b284_206",
+            "foxData": {
+                "foxName": "Early Tagger #48",
+                "pixelFoxName": "Pixel Foxes #2475384"
+            }
+        },
+        {
+            "origin.outpoint": "37e28dfd458f09992e9644f1d022348c960bb308c6dd6581f2b74b1d203bddde_17",
+            "foxData": {
+                "foxName": "Early Tagger #49",
+                "pixelFoxName": "Pixel Foxes #2441062"
+            }
+        },
+        {
+            "origin.outpoint": "a79e395f92626f16fb04ae7efd0f2ecd1d491bea0017a6f387708698fe0efe80_51",
+            "foxData": {
+                "foxName": "Early Tagger #50",
+                "pixelFoxName": "Pixel Foxes #2474029"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_48",
+            "foxData": {
+                "foxName": "Early Tagger #51",
+                "pixelFoxName": "Pixel Foxes #2445155"
+            }
+        },
+        {
+            "origin.outpoint": "a79e395f92626f16fb04ae7efd0f2ecd1d491bea0017a6f387708698fe0efe80_245",
+            "foxData": {
+                "foxName": "Early Tagger #52",
+                "pixelFoxName": "Pixel Foxes #2474223"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_5",
+            "foxData": {
+                "foxName": "Early Tagger #53",
+                "pixelFoxName": "Pixel Foxes #2445112"
+            }
+        },
+        {
+            "origin.outpoint": "bad90733a69c14cf9350060d380b646fd21479768c58d5b64295e41cd41351a1_9",
+            "foxData": {
+                "foxName": "Early Tagger #54",
+                "pixelFoxName": "Pixel Foxes #2443041"
+            }
+        },
+        {
+            "origin.outpoint": "d933573cb589cdd9aa1fb8cf5db94371fc89ab940bc8ece8898929caaa03a137_61",
+            "foxData": {
+                "foxName": "Early Tagger #55",
+                "pixelFoxName": "Pixel Foxes #2440706"
+            }
+        },
+        {
+            "origin.outpoint": "428e70a7e0d222c2ddf396d96f87b8825633d7402803bc2b933d33493f25b284_198",
+            "foxData": {
+                "foxName": "Early Tagger #56",
+                "pixelFoxName": "Pixel Foxes #2475376"
+            }
+        },
+        {
+            "origin.outpoint": "45bf524a94404d5587d1d8c77500b513aea983fa391651718ab86b366abde20d_98",
+            "foxData": {
+                "foxName": "Early Tagger #57",
+                "pixelFoxName": "Pixel Foxes #984051"
+            }
+        },
+        {
+            "origin.outpoint": "dcc02819581997c6be8207751880fc6fa52d150095d868d1693bd20e464c0571_110",
+            "foxData": {
+                "foxName": "Early Tagger #58",
+                "pixelFoxName": "Pixel Foxes #2473188"
+            }
+        },
+        {
+            "origin.outpoint": "d933573cb589cdd9aa1fb8cf5db94371fc89ab940bc8ece8898929caaa03a137_53",
+            "foxData": {
+                "foxName": "Early Tagger #59",
+                "pixelFoxName": "Pixel Foxes #2440698"
+            }
+        },
+        {
+            "origin.outpoint": "a79e395f92626f16fb04ae7efd0f2ecd1d491bea0017a6f387708698fe0efe80_112",
+            "foxData": {
+                "foxName": "Early Tagger #60",
+                "pixelFoxName": "Pixel Foxes #2474090"
+            }
+        },
+        {
+            "origin.outpoint": "d933573cb589cdd9aa1fb8cf5db94371fc89ab940bc8ece8898929caaa03a137_40",
+            "foxData": {
+                "foxName": "Early Tagger #61",
+                "pixelFoxName": "Pixel Foxes #2440685"
+            }
+        },
+        {
+            "origin.outpoint": "428e70a7e0d222c2ddf396d96f87b8825633d7402803bc2b933d33493f25b284_261",
+            "foxData": {
+                "foxName": "Early Tagger #62",
+                "pixelFoxName": "Pixel Foxes #2475439"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_81",
+            "foxData": {
+                "foxName": "Early Tagger #63",
+                "pixelFoxName": "Pixel Foxes #2445188"
+            }
+        },
+        {
+            "origin.outpoint": "eee55e57008dfb967b8a8403eef135d6d3c3d63964d5c39b1d243dc3cfe84d73_268",
+            "foxData": {
+                "foxName": "Early Tagger #64",
+                "pixelFoxName": "Pixel Foxes #2474846"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_56",
+            "foxData": {
+                "foxName": "Early Tagger #65",
+                "pixelFoxName": "Pixel Foxes #2445163"
+            }
+        },
+        {
+            "origin.outpoint": "3a4745ab0f58a72e2e10dd131243e459e8188a99b4161ab710f324de4f7cc075_225",
+            "foxData": {
+                "foxName": "Early Tagger #66",
+                "pixelFoxName": "Pixel Foxes #2474503"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_4",
+            "foxData": {
+                "foxName": "Early Tagger #67",
+                "pixelFoxName": "Pixel Foxes #2445111"
+            }
+        },
+        {
+            "origin.outpoint": "26643754b18f6ad56cf3af4f8a46920cd701d525524f0a28ae0b4334b6c8f630_286",
+            "foxData": {
+                "foxName": "Early Tagger #68",
+                "pixelFoxName": "Pixel Foxes #2473964"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_84",
+            "foxData": {
+                "foxName": "Early Tagger #69",
+                "pixelFoxName": "Pixel Foxes #2445191"
+            }
+        },
+        {
+            "origin.outpoint": "428e70a7e0d222c2ddf396d96f87b8825633d7402803bc2b933d33493f25b284_128",
+            "foxData": {
+                "foxName": "Early Tagger #70",
+                "pixelFoxName": "Pixel Foxes #2475306"
+            }
+        },
+        {
+            "origin.outpoint": "9a955403dbdcd7839e14ac42d1ac32ed724e8695e962d17a978c938db325b0ee_248",
+            "foxData": {
+                "foxName": "Early Tagger #71",
+                "pixelFoxName": "Pixel Foxes #2475126"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_71",
+            "foxData": {
+                "foxName": "Early Tagger #72",
+                "pixelFoxName": "Pixel Foxes #2445178"
+            }
+        },
+        {
+            "origin.outpoint": "0ba886470419aac76b9ea12a3512e6b920ceb5889ef26b3732bbb9a0ceebe8d1_22",
+            "foxData": {
+                "foxName": "Early Tagger #73",
+                "pixelFoxName": "Pixel Foxes #2479352"
+            }
+        },
+        {
+            "origin.outpoint": "82c49f60a41c642a35a4da5945d30eef1c35c4c599d645be29f5bc902f9f1f39_131",
+            "foxData": {
+                "foxName": "Early Tagger #74",
+                "pixelFoxName": "Pixel Foxes #2475909"
+            }
+        },
+        {
+            "origin.outpoint": "b0c525d7bd0d30904393858984c7b88cdf69ef0640113d1c8c0023e86c94410f_29",
+            "foxData": {
+                "foxName": "Early Tagger #75",
+                "pixelFoxName": "Pixel Foxes #2443073"
+            }
+        },
+        {
+            "origin.outpoint": "a79e395f92626f16fb04ae7efd0f2ecd1d491bea0017a6f387708698fe0efe80_120",
+            "foxData": {
+                "foxName": "Early Tagger #76",
+                "pixelFoxName": "Pixel Foxes #2474098"
+            }
+        },
+        {
+            "origin.outpoint": "37e28dfd458f09992e9644f1d022348c960bb308c6dd6581f2b74b1d203bddde_44",
+            "foxData": {
+                "foxName": "Early Tagger #77",
+                "pixelFoxName": "Pixel Foxes #2441089"
+            }
+        },
+        {
+            "origin.outpoint": "54f3b1cf35b7178ff59ee7d88e907a241bd564cacea40f3fc34df38bebba3b29_225",
+            "foxData": {
+                "foxName": "Early Tagger #78",
+                "pixelFoxName": "Pixel Foxes #2475703"
+            }
+        },
+        {
+            "origin.outpoint": "37e28dfd458f09992e9644f1d022348c960bb308c6dd6581f2b74b1d203bddde_88",
+            "foxData": {
+                "foxName": "Early Tagger #79",
+                "pixelFoxName": "Pixel Foxes #2441133"
+            }
+        },
+        {
+            "origin.outpoint": "82c49f60a41c642a35a4da5945d30eef1c35c4c599d645be29f5bc902f9f1f39_44",
+            "foxData": {
+                "foxName": "Early Tagger #80",
+                "pixelFoxName": "Pixel Foxes #2475822"
+            }
+        },
+        {
+            "origin.outpoint": "4b270882720d956b59364d581e43b36d854064760d6920e2d3e278f4f9cc546f_7",
+            "foxData": {
+                "foxName": "Early Tagger #81",
+                "pixelFoxName": "Pixel Foxes #1917136"
+            }
+        },
+        {
+            "origin.outpoint": "723dad7b69555b142559a6153de67c23a7601e55baf21fe5eebd4fa7aebc1c63_34",
+            "foxData": {
+                "foxName": "Early Tagger #82",
+                "pixelFoxName": "Pixel Foxes #2037763"
+            }
+        },
+        {
+            "origin.outpoint": "989446e7676e38bb1c0bc6df900d849acafa3816fab461313ff3b1197ce3529e_6",
+            "foxData": {
+                "foxName": "Early Tagger #83",
+                "pixelFoxName": "Pixel Foxes #2037935"
+            }
+        },
+        {
+            "origin.outpoint": "2d8563c69c50262ac35e7234138bb6fe9bfbd4ebc33260331f20db5fa3bc1668_69",
+            "foxData": {
+                "foxName": "Early Tagger #84",
+                "pixelFoxName": "Pixel Foxes #2476747"
+            }
+        },
+        {
+            "origin.outpoint": "589f8b1bffe9f8ce278c8dbeb3d38123c1f5e61e151eee21c023ccc0b162ce5d_84",
+            "foxData": {
+                "foxName": "Early Tagger #85",
+                "pixelFoxName": "Pixel Foxes #2477062"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_60",
+            "foxData": {
+                "foxName": "Early Tagger #86",
+                "pixelFoxName": "Pixel Foxes #2445167"
+            }
+        },
+        {
+            "origin.outpoint": "989446e7676e38bb1c0bc6df900d849acafa3816fab461313ff3b1197ce3529e_20",
+            "foxData": {
+                "foxName": "Early Tagger #87",
+                "pixelFoxName": "Pixel Foxes #2037949"
+            }
+        },
+        {
+            "origin.outpoint": "b0c525d7bd0d30904393858984c7b88cdf69ef0640113d1c8c0023e86c94410f_4",
+            "foxData": {
+                "foxName": "Early Tagger #88",
+                "pixelFoxName": "Pixel Foxes #2443048"
+            }
+        },
+        {
+            "origin.outpoint": "989446e7676e38bb1c0bc6df900d849acafa3816fab461313ff3b1197ce3529e_18",
+            "foxData": {
+                "foxName": "Early Tagger #89",
+                "pixelFoxName": "Pixel Foxes #2037947"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_15",
+            "foxData": {
+                "foxName": "Early Tagger #90",
+                "pixelFoxName": "Pixel Foxes #2445122"
+            }
+        },
+        {
+            "origin.outpoint": "2d8563c69c50262ac35e7234138bb6fe9bfbd4ebc33260331f20db5fa3bc1668_266",
+            "foxData": {
+                "foxName": "Early Tagger #91",
+                "pixelFoxName": "Pixel Foxes #2476944"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_36",
+            "foxData": {
+                "foxName": "Early Tagger #92",
+                "pixelFoxName": "Pixel Foxes #2445143"
+            }
+        },
+        {
+            "origin.outpoint": "2d8563c69c50262ac35e7234138bb6fe9bfbd4ebc33260331f20db5fa3bc1668_7",
+            "foxData": {
+                "foxName": "Early Tagger #93",
+                "pixelFoxName": "Pixel Foxes #2476685"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_17",
+            "foxData": {
+                "foxName": "Early Tagger #94",
+                "pixelFoxName": "Pixel Foxes #2445124"
+            }
+        },
+        {
+            "origin.outpoint": "989446e7676e38bb1c0bc6df900d849acafa3816fab461313ff3b1197ce3529e_0",
+            "foxData": {
+                "foxName": "Early Tagger #95",
+                "pixelFoxName": "Pixel Foxes #2037929"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_11",
+            "foxData": {
+                "foxName": "Early Tagger #96",
+                "pixelFoxName": "Pixel Foxes #2445118"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_57",
+            "foxData": {
+                "foxName": "Early Tagger #97",
+                "pixelFoxName": "Pixel Foxes #2445164"
+            }
+        },
+        {
+            "origin.outpoint": "940e8b414714f7d9c546dc6613435d676400e46b98ce0a73cea711165f77aa3d_23",
+            "foxData": {
+                "foxName": "Early Tagger #98",
+                "pixelFoxName": "Pixel Foxes #2400256"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_46",
+            "foxData": {
+                "foxName": "Early Tagger #99",
+                "pixelFoxName": "Pixel Foxes #2445153"
+            }
+        },
+        {
+            "origin.outpoint": "45bf524a94404d5587d1d8c77500b513aea983fa391651718ab86b366abde20d_71",
+            "foxData": {
+                "foxName": "Early Tagger #100",
+                "pixelFoxName": "Pixel Foxes #984024"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_63",
+            "foxData": {
+                "foxName": "Early Tagger #101",
+                "pixelFoxName": "Pixel Foxes #2445170"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_0",
+            "foxData": {
+                "foxName": "Early Tagger #102",
+                "pixelFoxName": "Pixel Foxes #2445107"
+            }
+        },
+        {
+            "origin.outpoint": "589f8b1bffe9f8ce278c8dbeb3d38123c1f5e61e151eee21c023ccc0b162ce5d_99",
+            "foxData": {
+                "foxName": "Early Tagger #103",
+                "pixelFoxName": "Pixel Foxes #2477077"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_69",
+            "foxData": {
+                "foxName": "Early Tagger #104",
+                "pixelFoxName": "Pixel Foxes #2445176"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_9",
+            "foxData": {
+                "foxName": "Early Tagger #105",
+                "pixelFoxName": "Pixel Foxes #2445116"
+            }
+        },
+        {
+            "origin.outpoint": "2d8563c69c50262ac35e7234138bb6fe9bfbd4ebc33260331f20db5fa3bc1668_254",
+            "foxData": {
+                "foxName": "Early Tagger #106",
+                "pixelFoxName": "Pixel Foxes #2476932"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_50",
+            "foxData": {
+                "foxName": "Early Tagger #107",
+                "pixelFoxName": "Pixel Foxes #2445157"
+            }
+        },
+        {
+            "origin.outpoint": "589f8b1bffe9f8ce278c8dbeb3d38123c1f5e61e151eee21c023ccc0b162ce5d_26",
+            "foxData": {
+                "foxName": "Early Tagger #108",
+                "pixelFoxName": "Pixel Foxes #2477004"
+            }
+        },
+        {
+            "origin.outpoint": "d130b6783bc2560483f1075b478be4c0ae346e7d9113f113385a985c7eba5387_285",
+            "foxData": {
+                "foxName": "Early Tagger #109",
+                "pixelFoxName": "Pixel Foxes #2445092"
+            }
+        },
+        {
+            "origin.outpoint": "94b0d114c636853303704755387a03e547475b90cd825b738f149ec2229daa9a_26",
+            "foxData": {
+                "foxName": "Early Tagger #110",
+                "pixelFoxName": "Pixel Foxes #1543867"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_21",
+            "foxData": {
+                "foxName": "Early Tagger #111",
+                "pixelFoxName": "Pixel Foxes #2445128"
+            }
+        },
+        {
+            "origin.outpoint": "ed254a6df394263254bf5aeb6bca94d4da1e1a3b82910cc2acea3e73b5ba2c53_46",
+            "foxData": {
+                "foxName": "Early Tagger #112",
+                "pixelFoxName": "Pixel Foxes #1537585"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_29",
+            "foxData": {
+                "foxName": "Early Tagger #113",
+                "pixelFoxName": "Pixel Foxes #2445136"
+            }
+        },
+        {
+            "origin.outpoint": "091a2b25bdebc5cd8ed80388af3e98e1b02712b76d124a12268567b0fe01b8b2_174",
+            "foxData": {
+                "foxName": "Early Tagger #114",
+                "pixelFoxName": "Pixel Foxes #2472042"
+            }
+        },
+        {
+            "origin.outpoint": "45bf524a94404d5587d1d8c77500b513aea983fa391651718ab86b366abde20d_43",
+            "foxData": {
+                "foxName": "Early Tagger #115",
+                "pixelFoxName": "Pixel Foxes #983996"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_24",
+            "foxData": {
+                "foxName": "Early Tagger #116",
+                "pixelFoxName": "Pixel Foxes #2445131"
+            }
+        },
+        {
+            "origin.outpoint": "45bf524a94404d5587d1d8c77500b513aea983fa391651718ab86b366abde20d_1",
+            "foxData": {
+                "foxName": "Early Tagger #117",
+                "pixelFoxName": "Pixel Foxes #983954"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_93",
+            "foxData": {
+                "foxName": "Early Tagger #118",
+                "pixelFoxName": "Pixel Foxes #2445200"
+            }
+        },
+        {
+            "origin.outpoint": "45bf524a94404d5587d1d8c77500b513aea983fa391651718ab86b366abde20d_52",
+            "foxData": {
+                "foxName": "Early Tagger #119",
+                "pixelFoxName": "Pixel Foxes #984005"
+            }
+        },
+        {
+            "origin.outpoint": "3c55f1776b977247432ea1030f3fba6027fb954acb5139a3ab64259cbaa9cafa_92",
+            "foxData": {
+                "foxName": "Early Tagger #120",
+                "pixelFoxName": "Pixel Foxes #2445199"
+            }
+        },
+        {
+            "origin.outpoint": "047e70de2ff2b4c8a0c460b4c09511358d61a289a1d99890cfac8e7d25188c41_91",
+            "foxData": {
+                "foxName": "Early Tagger #121",
+                "pixelFoxName": "Pixel Foxes #1207901"
+            }
+        },
+        {
+            "origin.outpoint": "23923a7d1231856d2b2343dc8761593a3fa18674a5517e67eb132ec40ce916ee_78",
+            "foxData": {
+                "foxName": "Early Tagger #122",
+                "pixelFoxName": "Pixel Foxes #1149085"
+            }
+        },
+        {
+            "origin.outpoint": "589f8b1bffe9f8ce278c8dbeb3d38123c1f5e61e151eee21c023ccc0b162ce5d_52",
+            "foxData": {
+                "foxName": "Early Tagger #123",
+                "pixelFoxName": "Pixel Foxes #2477030"
+            }
+        },
+        {
+            "origin.outpoint": "c0a5f8e03a409fa67cd0b07c1eef1c52127501a4595c10ee4a84b2e3c83b406b_50",
+            "foxData": {
+                "foxName": "Early Tagger #124",
+                "pixelFoxName": "Pixel Foxes #1917880"
+            }
+        },
+        {
+            "origin.outpoint": "9a955403dbdcd7839e14ac42d1ac32ed724e8695e962d17a978c938db325b0ee_288",
+            "foxData": {
+                "foxName": "Early Tagger #125",
+                "pixelFoxName": "Pixel Foxes #2475166"
+            }
+        },
+        {
+            "origin.outpoint": "589f8b1bffe9f8ce278c8dbeb3d38123c1f5e61e151eee21c023ccc0b162ce5d_50",
+            "foxData": {
+                "foxName": "Early Tagger #126",
+                "pixelFoxName": "Pixel Foxes #2477028"
+            }
+        },
+        {
+            "origin.outpoint": "3a4745ab0f58a72e2e10dd131243e459e8188a99b4161ab710f324de4f7cc075_168",
+            "foxData": {
+                "foxName": "Early Tagger #127",
+                "pixelFoxName": "Pixel Foxes #2474446"
+            }
+        },
+        {
+            "origin.outpoint": "2d8563c69c50262ac35e7234138bb6fe9bfbd4ebc33260331f20db5fa3bc1668_32",
+            "foxData": {
+                "foxName": "Early Tagger #128",
+                "pixelFoxName": "Pixel Foxes #2476710"
+            }
+        },
+        {
+            "origin.outpoint": "d59af2fef9c1d29d8862e63c565250f66f474026bd5cc2f842d23f99f70d1021_47",
+            "foxData": {
+                "foxName": "Early Tagger #129",
+                "pixelFoxName": "Pixel Foxes #2460385"
+            }
+        },
+        {
+            "origin.outpoint": "589f8b1bffe9f8ce278c8dbeb3d38123c1f5e61e151eee21c023ccc0b162ce5d_81",
+            "foxData": {
+                "foxName": "Early Tagger #130",
+                "pixelFoxName": "Pixel Foxes #2477059"
+            }
+        },
+        {
+            "origin.outpoint": "c0a5f8e03a409fa67cd0b07c1eef1c52127501a4595c10ee4a84b2e3c83b406b_55",
+            "foxData": {
+                "foxName": "Early Tagger #131",
+                "pixelFoxName": "Pixel Foxes #1917885"
+            }
+        },
+        {
+            "origin.outpoint": "2d8563c69c50262ac35e7234138bb6fe9bfbd4ebc33260331f20db5fa3bc1668_258",
+            "foxData": {
+                "foxName": "Early Tagger #132",
+                "pixelFoxName": "Pixel Foxes #2476936"
+            }
+        },
+        {
+            "origin.outpoint": "c0a5f8e03a409fa67cd0b07c1eef1c52127501a4595c10ee4a84b2e3c83b406b_39",
+            "foxData": {
+                "foxName": "Early Tagger #133",
+                "pixelFoxName": "Pixel Foxes #1917869"
+            }
+        },
+        {
+            "origin.outpoint": "2d8563c69c50262ac35e7234138bb6fe9bfbd4ebc33260331f20db5fa3bc1668_209",
+            "foxData": {
+                "foxName": "Early Tagger #134",
+                "pixelFoxName": "Pixel Foxes #2476887"
+            }
+        },
+        {
+            "origin.outpoint": "c0a5f8e03a409fa67cd0b07c1eef1c52127501a4595c10ee4a84b2e3c83b406b_69",
+            "foxData": {
+                "foxName": "Early Tagger #135",
+                "pixelFoxName": "Pixel Foxes #1917899"
+            }
+        },
+        {
+            "origin.outpoint": "989446e7676e38bb1c0bc6df900d849acafa3816fab461313ff3b1197ce3529e_46",
+            "foxData": {
+                "foxName": "Early Tagger #136",
+                "pixelFoxName": "Pixel Foxes #2037975"
+            }
+        },
+        {
+            "origin.outpoint": "589f8b1bffe9f8ce278c8dbeb3d38123c1f5e61e151eee21c023ccc0b162ce5d_96",
+            "foxData": {
+                "foxName": "Early Tagger #137",
+                "pixelFoxName": "Pixel Foxes #2477074"
+            }
+        },
+        {
+            "origin.outpoint": "9bc8111ab11175fb7946de6d075cc16188f6b6ef4b7e349852804508df5195bb_19",
+            "foxData": {
+                "foxName": "Early Tagger #138",
+                "pixelFoxName": "Pixel Foxes #2063353"
+            }
+        },
+        {
+            "origin.outpoint": "9bc8111ab11175fb7946de6d075cc16188f6b6ef4b7e349852804508df5195bb_46",
+            "foxData": {
+                "foxName": "Early Tagger #139",
+                "pixelFoxName": "Pixel Foxes #2063380"
+            }
+        },
+        {
+            "origin.outpoint": "589f8b1bffe9f8ce278c8dbeb3d38123c1f5e61e151eee21c023ccc0b162ce5d_35",
+            "foxData": {
+                "foxName": "Early Tagger #140",
+                "pixelFoxName": "Pixel Foxes #2477013"
+            }
+        },
+        {
+            "origin.outpoint": "2d8563c69c50262ac35e7234138bb6fe9bfbd4ebc33260331f20db5fa3bc1668_284",
+            "foxData": {
+                "foxName": "Early Tagger #141",
+                "pixelFoxName": "Pixel Foxes #2476962"
+            }
+        },
+        {
+            "origin.outpoint": "652c2e14f52d3bfd1790ed26d48e2a0ec6fa04bd721b54ad03dba0f6f5abb143_276",
+            "foxData": {
+                "foxName": "Early Tagger #142",
+                "pixelFoxName": "Pixel Foxes #2476654"
+            }
+        },
+        {
+            "origin.outpoint": "c37d155a81465cb9099f9f118b89b590dd1b12538dbecd49d9096e8d738ffcb6_29",
+            "foxData": {
+                "foxName": "Early Tagger #143",
+                "pixelFoxName": "Pixel Foxes #2670607"
+            }
+        },
+        {
+            "origin.outpoint": "589f8b1bffe9f8ce278c8dbeb3d38123c1f5e61e151eee21c023ccc0b162ce5d_36",
+            "foxData": {
+                "foxName": "Early Tagger #144",
+                "pixelFoxName": "Pixel Foxes #2477014"
+            }
+        },
+        {
+            "origin.outpoint": "983d4960fbd93f7b26209fe931567fe2de5cd06241ddf39ce8eb1ad296115162_8",
+            "foxData": {
+                "foxName": "Early Tagger #145",
+                "pixelFoxName": "Pixel Foxes #2655743"
+            }
+        },
+        {
+            "origin.outpoint": "c37d155a81465cb9099f9f118b89b590dd1b12538dbecd49d9096e8d738ffcb6_27",
+            "foxData": {
+                "foxName": "Early Tagger #146",
+                "pixelFoxName": "Pixel Foxes #2670605"
+            }
+        },
+        {
+            "origin.outpoint": "983d4960fbd93f7b26209fe931567fe2de5cd06241ddf39ce8eb1ad296115162_5",
+            "foxData": {
+                "foxName": "Early Tagger #147",
+                "pixelFoxName": "Pixel Foxes #2655740"
+            }
+        },
+        {
+            "origin.outpoint": "c37d155a81465cb9099f9f118b89b590dd1b12538dbecd49d9096e8d738ffcb6_63",
+            "foxData": {
+                "foxName": "Early Tagger #148",
+                "pixelFoxName": "Pixel Foxes #2670641"
+            }
+        },
+        {
+            "origin.outpoint": "45bf524a94404d5587d1d8c77500b513aea983fa391651718ab86b366abde20d_0",
+            "foxData": {
+                "foxName": "Early Tagger #149",
+                "pixelFoxName": "Pixel Foxes #983953"
+            }
+        },
+        {
+            "origin.outpoint": "c37d155a81465cb9099f9f118b89b590dd1b12538dbecd49d9096e8d738ffcb6_36",
+            "foxData": {
+                "foxName": "Early Tagger #150",
+                "pixelFoxName": "Pixel Foxes #2670614"
+            }
+        },
+        {
+            "origin.outpoint": "983d4960fbd93f7b26209fe931567fe2de5cd06241ddf39ce8eb1ad296115162_2",
+            "foxData": {
+                "foxName": "Early Tagger #151",
+                "pixelFoxName": "Pixel Foxes #2655737"
+            }
+        },
+        {
+            "origin.outpoint": "c37d155a81465cb9099f9f118b89b590dd1b12538dbecd49d9096e8d738ffcb6_52",
+            "foxData": {
+                "foxName": "Early Tagger #152",
+                "pixelFoxName": "Pixel Foxes #2670630"
+            }
+        },
+        {
+            "origin.outpoint": "45bf524a94404d5587d1d8c77500b513aea983fa391651718ab86b366abde20d_23",
+            "foxData": {
+                "foxName": "Early Tagger #153",
+                "pixelFoxName": "Pixel Foxes #983976"
+            }
+        },
+        {
+            "origin.outpoint": "c37d155a81465cb9099f9f118b89b590dd1b12538dbecd49d9096e8d738ffcb6_58",
+            "foxData": {
+                "foxName": "Early Tagger #154",
+                "pixelFoxName": "Pixel Foxes #2670636"
+            }
+        },
+        {
+            "origin.outpoint": "983d4960fbd93f7b26209fe931567fe2de5cd06241ddf39ce8eb1ad296115162_3",
+            "foxData": {
+                "foxName": "Early Tagger #155",
+                "pixelFoxName": "Pixel Foxes #2655738"
+            }
+        },
+        {
+            "origin.outpoint": "c37d155a81465cb9099f9f118b89b590dd1b12538dbecd49d9096e8d738ffcb6_3",
+            "foxData": {
+                "foxName": "Early Tagger #156",
+                "pixelFoxName": "Pixel Foxes #2670581"
+            }
+        },
+        {
+            "origin.outpoint": "2d8563c69c50262ac35e7234138bb6fe9bfbd4ebc33260331f20db5fa3bc1668_148",
+            "foxData": {
+                "foxName": "Early Tagger #157",
+                "pixelFoxName": "Pixel Foxes #2476826"
+            }
+        }
+    ]
+}

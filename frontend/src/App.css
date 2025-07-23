@@ -1,0 +1,1730 @@
+.App {
+  text-align: left;
+  background-color: #000000;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.GettingFox {
+  background-color: #000000;
+}
+
+
+.group-cointainer{
+    list-style-type: none;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.DonateLink {
+  cursor: pointer;
+}
+
+.Actions {
+  width: 100px;
+}
+
+.ActionsContainer {
+  margin-left: 20px;
+}
+
+.LoaderHeight {
+  height: 50px;
+  margin-top: 30px;
+}
+
+.TaggedInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.TaggedPlayers {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.FaucetLoader {
+  height: 50px;
+  margin: 50px;
+}
+
+#ShowMore5 {
+  display: none;
+}
+
+#ShowMore6 {
+  display: none;
+}
+
+#ShowMore7 {
+  display: none;
+}
+
+.ResetLoader {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.ResetLoaderCenter {
+  margin-top: 10px;
+}
+
+.HoverButton:hover {
+  color: #36bffa !important;
+  background-color: #000000 !important;
+  border: 3px solid #36bffa !important;
+}
+.HoverButtonGroups:hover {
+  color: #000000 !important;
+  background-color: #36bffa !important;
+  border: 3px solid #36bffa !important;
+}
+
+.HoverActivityButton {
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+.HoverActivityButton:hover {
+  color: #000000 !important;
+  background-color: #36bffa !important;
+  border: 3px solid #000000 !important;
+}
+
+.HoverButtonExit:hover {
+  color: #000000 !important;
+  background-color: #36bffa !important;
+  border: 3px solid #36bffa !important;
+}
+
+.DemoButtonHover:hover {
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  border: 3px solid #000000 !important;
+}
+
+.YoursButtonHover:hover {
+  border: 3px solid #ffffff !important;
+}
+
+.FaucetButtonHover:hover {
+  border: 2px solid #36bffa !important;
+}
+
+
+.PP {
+  color: white;
+}
+
+.PP a {
+  color: #36bffa;
+}
+
+.Blue {
+  color: #36bffa;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.BlueTraits {
+  color: #8b8b8b;
+  text-align: center;
+  font-size: calc(2px + 1vmin);
+  white-space: nowrap;
+  margin: 5px;
+}
+
+.Wrapper {
+  padding: 25px;
+  background-color: #000000;
+}
+
+.App-header {
+  background-color: #36bffa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+  .App-header {
+    padding: 10px;
+  }
+  
+  .LoaderHeight {
+    margin: 10px 0;
+  }
+}
+
+.Topbar {
+  background-color: #36bffa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: black;
+  position: relative;
+  height: 60px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Constrain logo size within Topbar */
+.Topbar .App-logo,
+.Topbar img {
+  max-height: 60px;
+  max-width: 200px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Ensure logos in Topbar don't use vmin scaling */
+.Topbar .App-logo {
+  height: auto;
+  max-height: 60px;
+}
+
+.Topbar a {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 1001;
+}
+
+.Heading {
+  background-color: black;
+  text-align: center;
+  font-size: calc(15px + 1vmin);
+  color: #ffffff;
+}
+
+.Emojis {
+  background-color: rgba(256, 256, 256, 0.05);
+  padding: 10px;
+  border-radius: 10px;
+  height: 30px;
+}
+
+.React {
+  background-color: black;
+  text-align: center;
+  font-size: calc(15px + 1vmin);
+  color: #ffffff;
+}
+
+.OrdForm {
+  width: "400px";
+}
+
+
+.Viewers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.ViewersContainer {
+  font-size: calc(20px + 1vmin);
+  color: #36bffa;
+
+}
+
+.Players {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.PlayersContainer {
+  font-size: calc(20px + 1vmin);
+  color: #36bffa;
+
+}
+
+.TagPlayers {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: center;
+}
+
+
+.TagPlayersContainer {
+  font-size: calc(20px + 1vmin);
+  color: #36bffa;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.White {
+  color: #ffffff;
+}
+
+.White a {
+  color: #ffffff;
+}
+
+.WhiteHow {
+  color: #ffffff;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.BlueHow {
+  color: #36bffa;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+pre {
+  border: 1px solid black;
+  float: left;
+  justify-content: center;
+  box-sizing: border-box;
+  overflow: auto;
+  font-size:.8em;
+}
+code {
+  display: inline-block;
+}
+
+.WhiteGroupLinks {
+  margin-left: 15px;
+}
+
+.WhiteGroupLinks a {
+  color: #8b8b8b;
+}
+
+.GrayGroupLinks {
+  color: #8b8b8b;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 100%;
+  text-align: center;
+  font-size: calc(10px + .9vmin);
+}
+
+.WhiteResults {
+  z-index: "100";
+  color: #ffffff;
+  font-size: calc(10px + .8vmin);
+}
+
+.WhiteGetFox {
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+.Hamburger {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1001;
+}
+
+.svg_icons {
+  transform: scale(2.0);
+  color: #000000;
+}
+
+#error-container p {
+  color: #ffffff;
+}
+
+.RaiseLinks {
+  margin-top: -20px;
+}
+
+.Black {
+  color: #000000;
+}
+
+.MenuLinks:hover{
+  color: #36bffa!important;
+  text-decoration: none!important;
+  font-size: 1.5rem;
+}
+.MenuLinks {
+  text-decoration: none!important;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+
+.MenuHover a:hover {
+  color: #36bffa;
+  font-size: calc(10px + 1.5vmin);
+  text-decoration: none;
+}
+
+.Demo {
+  color: #36bffa;
+}
+
+.Foxplorer {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: calc(10px + 1vmin);
+  color: #36bffa;
+
+}
+
+.TwinFinder {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: calc(10px + 1vmin);
+  color: #36bffa;
+
+}
+
+.Footer {
+  text-align: center;
+  color: #36bffa;
+  background-color: #000000;
+}
+
+.Clear {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.WhiteClear {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.GroupText {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+.Back {
+  cursor: pointer;
+  color: white;
+  margin-left: 15px;
+  padding: 10px;
+  position: absolute;
+  font-size: calc(8px + .8vmin);
+}
+
+.Countdown {
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  right: 15px;
+  padding-top: 15px;
+  text-align: right;
+  font-size: calc(12px + .9vmin);
+}
+
+.DonateFoxes {
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  right: 15px;
+
+  text-align: right;
+  font-size: calc(12px + .9vmin);
+}
+
+.Required {
+  color: #ffffff;
+  text-align: left;
+  position: relative;
+  left: 15px;
+  font-size: calc(12px + .9vmin);
+}
+
+.Status {
+  width: 100%;
+}
+
+.StatusLeft {
+  color: #ffffff;
+  float: left;
+  text-align: left;
+  position: relative;
+  left: 15px;
+  font-size: calc(12px + .9vmin);
+}
+
+.YourFox {
+  width: 100px;
+  border: 4px solid #000000;
+}
+
+.YourFox:hover {
+  border: 4px solid #36bffa;
+}
+
+.StatusRight {
+  color: #ffffff;
+  float: right;
+  text-align: right;
+  position: relative;
+  right: 15px;
+  font-size: calc(12px + .9vmin);
+}
+
+.Yours {
+  color: #ffffff;
+  text-align: left;
+  margin-left: 15px;
+  font-size: calc(12px + .9vmin);
+}
+
+.DateRange {
+  margin-left: 15px;
+}
+
+.SmallerFont {
+  font-size: calc(12px + .9vmin);
+  color: #ffffff;
+}
+
+#TV {
+  height: 500px;
+}
+
+.Connect {
+  cursor: pointer;
+  color: white;
+  right: 15px;
+  position: absolute;
+  text-align: right;
+}
+
+
+.FooterLink {
+  cursor: pointer;
+  color: #36bffa;
+  text-decoration: none;
+}
+
+select {
+  /* styling */
+  background-color: black;
+  color: #ffffff;
+  border: 3px solid #36bffa;
+  border-radius: 4px;
+  display: block;
+  font: 10px;
+  width: 115px;
+  line-height: 1.5em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+
+  /* reset */
+  margin: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: menulist;
+  -moz-appearance: none;
+}
+
+#Filters {
+  background-color: #000000;
+  font-size: calc(10px + 1vmin);
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+#Filters h3 {
+  color: #36bffa;
+  margin: 0;
+  padding: 15px;
+  background-color: #000000;
+}
+
+/* Ensure RollingFoxesFilters matches LuckyFaucetFilters exactly */
+#Live #Filters h3 {
+  color: #36bffa;
+  margin: 0;
+  padding: 15px;
+  background-color: #000000;
+}
+
+#Filters h4 a {
+  color: #ffffffff;
+}
+
+.RichList {
+  background-color: #000000;
+  font-size: calc(10px + 1vmin);
+  color: #ffffff;
+}
+
+.RichList h3 {
+  color: #36bffa;
+  margin-left: 15px;
+
+}
+
+#Faucet {
+  background-color: #000000;
+  font-size: calc(10px + 1vmin);
+  color: #ffffff;
+}
+
+#Faucet h3 {
+  color: #36bffa;
+  margin-left: 15px;
+}
+
+#Faucet h4 a {
+  color: #ffffffff;
+}
+
+#Live {
+  background-color: #000000;
+  font-size: calc(10px + 1vmin);
+  color: #ffffff;
+}
+
+#Live h3 {
+  color: #36bffa;
+  margin-left: 15px;
+}
+
+#Live h4 a {
+  color: #ffffffff;
+}
+
+
+#clearloader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Right {
+  float: right;
+}
+
+.ZIndex {
+  z-index: "10";
+}
+
+.NotIt {
+  width: 100px;
+  border: 4px solid #000000;
+}
+
+.NotIt:hover {
+  border: 4px solid #36bffa;
+}
+
+.It {
+  width: 100px;
+  border: 4px solid #FFEA00;
+}
+
+.ItX {
+  width: 100px;
+  border: 4px solid #FFEA00;
+}
+
+.NotItX {
+  width: 100px;
+  border: 4px solid #000000;
+}
+
+#Charts {
+  width: 100%;
+  /* max-height:500px; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+}
+
+.H3Wrapper {
+  font-size: calc(10px + 1vmin);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-color: #000000;
+}
+
+.ClearWrapper {
+  font-size: calc(10px + 1vmin);
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-color: #000000;
+}
+
+.CenterLoader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+}
+
+.CenterCanvas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  overflow-x: hidden;
+}
+
+.H3Wrapper h3 {
+  margin-left: 15px;
+  color: #36bffa;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .H3Wrapper h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+}
+
+.H3WrapperNoMargin h3 {
+  color: #36bffa;
+}
+
+#chart1 {
+  display: block;
+}
+
+#chart2 {
+  display: none;
+}
+
+#chart3 {
+  display: none;
+}
+
+#chart4 {
+  display: none;
+}
+
+#chart5 {
+  display: none;
+}
+
+#chart6 {
+  display: none;
+}
+
+#chart7 {
+  display: none;
+}
+
+#TopTaggers {
+  margin: 0;
+  min-height: 40px;
+}
+
+#TaggedFoxes {
+  margin: 0;
+  min-height: 40px;
+}
+
+#top-taggers-by-owner {
+  margin: 0;
+  font-size: calc(8px + 1vmin);
+}
+
+#top-taggers-by-owner li {
+  margin-left: 40px;
+
+}
+
+#top-taggers-by-owner a {
+  color: #ffffff;
+
+}
+
+#top-taggers-by-owner a:hover {
+  color: #36bffa;
+}
+
+
+#TaggedFoxes {
+  margin: 0;
+  min-height: 40px;
+}
+
+#TopByFox {
+  margin: 0;
+  min-height: 40px;
+}
+
+#top-taggers-by-fox {
+  font-size: calc(8px + 1vmin);
+  margin: 0;
+  color: #434343;
+  min-height: 50px;
+
+}
+
+.NormalImage {
+  margin: 0;
+  width: 100%;
+}
+
+.GrayscaleImage {
+  margin: 0;
+  width: 100%;
+  filter: grayscale(1)
+}
+
+.TaggedGray {
+  color: #434343 !important;
+}
+
+.TaggedBlue {
+  color: #36bffa !important;
+}
+
+
+
+#top-taggers-by-fox li {
+  align-items: left;
+  width: 150px;
+  color: #36bffa;
+  display: inline-block;
+  list-style-type: none;
+  border: 4px solid #000000;
+  padding: 3px;
+
+
+}
+
+#top-taggers-by-fox a {
+  color: #36bffa;
+}
+
+#top-taggers-by-fox a:hover {
+  color: #36bffa;
+}
+
+#top-taggers-by-fox li:hover {
+  border: 4px solid #36bffa;
+}
+
+.TopTaggersTagged li:hover {
+  border: 4px solid #434343 !important;
+}
+
+.TopTaggersTagged a {
+  color: #ffffff !important;
+}
+
+.TopTaggersTagged a:hover {
+  color: #434343 !important;
+}
+
+.TopTaggersTagged a {
+  color: #ffffff !important;
+}
+
+.TopTaggersTagged a:hover {
+  color: #434343 !important;
+}
+
+#tagged-fox-container {
+  font-size: calc(8px + 1vmin);
+  margin: 0;
+  color: #434343;
+}
+
+#tagged-fox-container img {
+  margin: 0;
+  width: 100%;
+  filter: grayscale(1);
+}
+
+#tagged-fox-container li {
+  align-items: left;
+  width: 150px;
+  color: #434343;
+  display: inline-block;
+  list-style-type: none;
+  border: 4px solid #000000;
+  padding: 3px;
+}
+
+.TaggedFoxHover:hover {
+  border: 4px solid #434343 !important;
+}
+
+#tagged-fox-container a {
+  color: #ffffff;
+}
+
+#tagged-fox-container a:hover {
+  color: #434343;
+}
+
+#tagged-fox-container li:hover {
+  border: 4px solid #434343;
+}
+
+#image-container {
+  font-size: calc(8px + 1vmin);
+  margin-left: -40px;
+}
+
+#image-container p {
+  color: #ffffff;
+}
+
+#image-container img {
+  margin: 0;
+  width: 100%;
+}
+
+#image-container li {
+  align-items: left;
+  width: 140px;
+  display: inline-block;
+  list-style-type: none;
+  border: 4px solid #000000;
+  padding: 3px;
+}
+
+#image-container a {
+  color: #36bffa;
+}
+
+#image-container a:hover {
+  color: #36bffa;
+}
+
+#image-container li:hover {
+  border: 4px solid #36bffa;
+
+  a {
+    color: #36bffa;
+  }
+}
+#image-container-groups {
+padding: 0;
+overflow-x: hidden;
+}
+
+#image-container-groups img {
+  margin: 0;
+  width: 100%;
+}
+
+#image-container-groups li {
+  align-items: left;
+  width: 150px;
+  display: inline-block;
+  list-style-type: none;
+  border: 4px solid transparent;
+  padding: 3px;
+}
+
+#image-container-groups a {
+  color: #36bffa;
+}
+
+#image-container-groups a:hover {
+  color: #36bffa;
+}
+
+#image-container-groups li:hover {
+  border: 4px solid #36bffa;
+
+  a {
+    color: #36bffa;
+  }
+}
+
+/* Specific styles for foxgroup page */
+.foxgroup-page #image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+  align-items: start;
+}
+
+.foxgroup-page #image-container img {
+  height: 144px;
+  object-fit: cover;
+}
+
+.foxgroup-page #image-container li {
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  justify-content: flex-start;
+}
+
+#image-container-groupcreator {
+  padding: 0;
+  overflow-x: hidden;
+  }
+  
+  #image-container-groupcreator img {
+    margin: 0;
+    width: 100%;
+  }
+  
+  #image-container-groupcreator li {
+    align-items: left;
+    width: 150px;
+    display: inline-block;
+    list-style-type: none;
+    border: 4px solid transparent;
+    padding: 3px;
+  }
+  
+  #image-container-groupcreator a {
+    color: #36bffa;
+  }
+  
+  #image-container-groupcreator a:hover {
+    color: #36bffa;
+  }
+  
+  #image-container-groupcreator li:hover {
+    border: 4px solid;
+  
+    a {
+      color: #36bffa;
+    }
+  }
+
+.Edit{
+  background-color: #000000;
+}
+  .selected {
+    border: 4px solid green!important;
+    cursor:pointer;
+
+  }
+  .preselected {
+    cursor:pointer;
+
+  }
+  .SelectLinkRight{
+    cursor: pointer;
+    margin-left:15px;
+  }
+  .SelectLinkLeft{
+    cursor: pointer;
+    margin-right:15px;
+  }
+  .GroupInputs{
+    background-color: rgba(255, 255, 255, 0.1);
+    color:#36bffa;
+    padding:15px;
+    margin-left:15px;
+    margin-right:15px;
+    border-radius: 6px;
+  }
+  .black{
+    background-color:#000000;
+  }
+  .GroupName{
+    width:50%;
+    margin: 100px;
+    color:#bbb;
+    background-color: #000000;
+  }
+.InscLinks{
+  color:#bbb!important;
+}
+
+.InscLinksDesc{
+  color:#bbb!important;
+  word-break:break-all!important;
+}
+
+#players-container {
+  font-size: calc(8px + 1vmin);
+}
+.FoxTitle a {
+  text-wrap: wrap!important;
+}
+#players-container p {
+  color: #ffffff;
+}
+
+#players-container img {
+  margin: 0;
+  width: 144px;
+}
+
+#players-container li {
+  align-items: left;
+  width: 150px;
+  display: inline-block;
+  list-style-type: none;
+  border: 4px solid #000000;
+  padding: 3px;
+}
+
+#players-container a {
+  color: #36bffa;
+}
+
+.Reverse {
+  transform: scaleX(-1);
+}
+
+#players-container a:hover {
+  color: #36bffa;
+}
+
+#players-container li:hover {
+  border: 4px solid #36bffa;
+
+  a {
+    color: #36bffa;
+  }
+}
+
+#Activity {
+  margin: 0;
+  min-height: 40px;
+}
+
+.activity-left {
+  margin-left: 15px;
+}
+
+.activity-left a:hover {
+  color: #36bffa;
+}
+
+.Tagger {
+  color: #FFFF66;
+}
+
+.Tagger a {
+  color: #FFFF66;
+}
+
+.Tagger:hover {
+  color: #ffffff !important;
+}
+
+.Taggee {
+  color: #36bffa;
+}
+
+.Taggee a {
+  color: #36bffa;
+}
+
+.Taggee:hover {
+  color: #ffffff !important;
+}
+
+.ActivityLink {
+  color: #ffffff;
+}
+
+.ActivityLink a {
+  color: #ffffff;
+}
+
+.ActivityLink:hover {
+  color: #36bffa !important;
+}
+
+
+.ActivityIt {
+  width: 100px;
+  border: 4px solid #FFEA00;
+}
+
+.ActivityNotIt {
+  width: 100px;
+  border: 4px solid #36bffa;
+  margin-left: 5px;
+}
+
+
+
+.activity-ol {
+  margin: 0;
+}
+.activity-ol img{
+  width: 110px;
+}
+
+.activity-ol img:hover{
+  border: 4px solid #ffffff;
+
+}
+.ActivityIndex{
+  position:relative;
+  top:0px;
+  left:-10px;
+}
+
+.activity-ol li {
+  display: inline-block;
+  align-items: left;
+  padding: 5px;
+  margin:20px;
+  border: 4px solid #000000;
+}
+
+.activity-ol li:hover {
+
+  border: 4px solid #ffffff;
+}
+
+.activity-container {
+  font-size: calc(8px + 1vmin);
+  background-color: #000000;
+  margin: 0;
+  padding: 20px;
+}
+
+.activity-container h3 {
+  color: #36bffa;
+}
+
+.activity-container img {
+  margin: 0;
+  width: 143px;
+}
+
+.activity-container li {
+  align-items: left;
+  display: inline-block;
+  width: 150px;
+  list-style-type: none;
+  border: 4px solid #000000;
+  padding: 3px;
+}
+
+.activity-container a {
+  color: #36bffa;
+}
+
+.activity-container a:visited {
+  color: #36bffa;
+}
+
+.activity-container a:hover {
+  color: #36bffa;
+}
+
+.activity-container li:hover {
+  border: 4px solid #36bffa;
+
+  a {
+    color: #36bffa;
+  }
+}
+
+#PlayerInfo {
+  min-height: 40px;
+}
+
+#get-fox-image-container {
+  font-size: calc(8px + 1vmin);
+  margin-left: -40px;
+}
+
+#get-fox-image-container p {
+  color: #ffffff;
+}
+
+#get-fox-image-container img {
+  margin: 0;
+  width: 100%;
+}
+
+#get-fox-image-container li {
+  align-items: left;
+  width: 250px;
+  cursor: pointer;
+  display: inline-block;
+  list-style-type: none;
+  border: 4px solid #36bffa;
+  padding: 10px;
+}
+
+#get-fox-image-container a {
+  color: #36bffa;
+}
+
+#get-fox-image-container a:hover {
+  color: #36bffa;
+}
+
+#get-fox-image-container li:hover {
+  border: 4px solid #fefefe;
+
+  a {
+    color: #36bffa;
+  }
+}
+
+
+
+.TwinWrapper {
+  border: 2px solid #2b2b2b;
+  margin: 10px;
+}
+
+.TwinWrapper:hover {
+  border: 2px solid #fefefe;
+}
+
+.TitleDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.TwinDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.TwinDiv li {
+  display: inline-block;
+  margin: 5px;
+
+}
+
+.TwinDiv img {
+  cursor: pointer;
+  width: 155px;
+  margin: 10px;
+}
+
+.TwinDiv a {
+  color: #36bffa;
+}
+
+.TwinDiv a:hover {
+  color: #36bffa;
+}
+
+.twintraits {
+  color: #f7f7f7;
+  display: inline-block;
+  text-align: left;
+  font-size: calc(5px + .7vmin);
+  margin-left: 10px;
+}
+
+.twintraitslabels {
+  color: #36bffa;
+  display: inline-block;
+  text-align: left;
+  min-width: 50px;
+  font-size: calc(5px + .7vmin);
+}
+
+.TwinName {
+  color: #36bffa;
+  display: block;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: calc(10px + .8vmin);
+}
+
+.TwinName a {
+  font-size: calc(10px + .8vmin);
+}
+.TwinNameDate {
+  font-size: calc(8px + .8vmin);
+}
+
+.ResultsName {
+  color: #f7f7f7;
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+
+.ResultsName a {
+  font-size: calc(10px + .8vmin);
+}
+
+.ResultsTraits {
+  color: #8b8b8b;
+  text-align: center;
+  font-size: calc(5px + .8vmin);
+  white-space: nowrap;
+  margin: 5px;
+}
+
+.ResultsTraits a{
+  color: #8b8b8b!important;
+  text-align: center;
+  font-size: calc(5px + .8vmin);
+  white-space: nowrap;
+  margin: 5px;
+}
+
+.TwinNameOwner {
+  font-size: calc(5px + .8vmin);
+  color: #f7f7f7 !important;
+  ;
+  cursor: pointer;
+}
+
+.FaucetName {
+  color: #8b8b8b;
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+
+.FaucetName a {
+  font-size: calc(10px + .8vmin);
+}
+
+.FaucetNameOwner {
+  font-size: calc(5px + .8vmin);
+  color: #f7f7f7 !important;
+  ;
+  cursor: pointer;
+}
+
+.TwinTitle {
+  color: #36bffa;
+  display: block;
+
+}
+
+.ButtonDisabled {
+  cursor: pointer;
+  background-color: #2b2b2b;
+  color: #ff0000;
+}
+
+.FoxTitle {
+  color: #8b8b8b;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  font-size: calc(8px + .8vmin);
+
+}
+
+.FoxTitle a {
+  font-size: calc(8px + .8vmin);
+  white-space: nowrap;
+}
+
+.Label {
+  font-size: calc(10px + 1vmin);
+  margin: 10px;
+  margin-left: 5px;
+  color: #36bffa;
+}
+
+.FilterList {
+  list-style-type: none;
+  clear: both;
+  padding: 10px;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: flex-start;
+  margin: 0;
+  background-color: #000000;
+}
+
+.FilterList li {
+  flex: 0 0 calc(3.33% - 5px);
+  min-width: 115px;
+  max-width: 150px;
+  margin: 5px;
+  background-color: #000000;
+}
+
+#loader {
+  visibility: hidden;
+}
+
+.HideHome {
+  display: none;
+}
+
+#GameCanvas {
+  /* background-image: url(../public/bg-3840-2160.png); */
+  border: 2px solid #000000;
+  /* background-color: #36bffa; */
+  display: block;
+}
+
+.HideCanvas {
+  display: none;
+}
+
+
+
+/* Animated Circles CSS */
+
+#circles {
+  margin: 0;
+}
+
+#circles li {
+  position: absolute;
+  color: #36bffa;
+  display: block;
+  font-size: calc(8px + .9vmin);
+  list-style: none;
+  text-align: center;
+  animation: animate 10s linear forwards;
+  bottom: 0px;
+  left: 80%;
+}
+
+/* #circles li:nth-child(1) {
+	left: 25%;
+	animation-delay: 0s;
+	animation-duration: 8s;
+}
+
+#circles li:nth-child(2) {
+	left: 10%;
+	animation-delay: 0s;
+	animation-duration: 10s;
+}
+
+#circles li:nth-child(3) {
+	left: 70%;
+	animation-delay: 0s;
+	animation-duration: 20s;
+}
+
+#circles li:nth-child(4) {
+	left: 40%;
+	animation-delay: 0s;
+	animation-duration: 12s;
+}
+
+#circles li:nth-child(5) {
+	left: 65%;
+	animation-delay: 0s;
+	animation-duration: 9s;
+}
+#circles li:nth-child(6) {
+visibility:hidden;
+}
+
+#circles li:nth-child(7) {
+  visibility:hidden;
+}
+
+#circles li:nth-child(8) {
+  visibility:hidden;
+}
+
+#circles li:nth-child(9) {
+  visibility:hidden;
+}
+
+#circles li:nth-child(10) {
+  visibility:hidden;
+} */
+
+/* Tablet - 768px */
+/* @media only screen and (min-width: 48em) {
+  #circles li:nth-child(6) {
+    visibility:visible;
+    left: 75%;
+    animation-delay: 0s;
+    animation-duration: 30s;
+  }
+  
+  #circles li:nth-child(7) {
+    visibility:visible;
+    left: 35%;
+    animation-delay: 0s;
+    animation-duration: 25s;
+  }
+  
+  #circles li:nth-child(8) {
+    visibility:visible;
+    left: 50%;
+    animation-delay: 0s;
+    animation-duration: 30s;
+  }
+  
+  #circles li:nth-child(9) {
+    visibility:visible;
+    left: 20%;
+    animation-delay: 0s;
+    animation-duration: 35s;
+  }
+  
+  #circles li:nth-child(10) {
+    visibility:visible;
+    left: 85%;
+    animation-delay: 0s;
+    animation-duration: 35s;
+  }
+      
+}
+ */
+
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateY(-60vh) rotate(0deg);
+    opacity: .5;
+  }
+
+  100% {
+    transform: translateY(-120vh) rotate(0deg);
+    opacity: 0;
+  }
+}
+
+/* TwinFinderDemo loading styles */
+.TwinFinderSection {
+  margin-top: 0;
+  padding: 15px;
+  background-color: #000000;
+}
+
+.TwinFinderLoading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.TwinFinderLoading p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.image-container {
+  font-size: calc(8px + 1vmin);
+  margin-left: -40px;
+}
+
+.image-container p {
+  color: #ffffff;
+}
+
+.image-container img {
+  margin: 0;
+  width: 100%;
+}
+
+.image-container li {
+  align-items: left;
+  width: 110px;
+  display: inline-block;
+  list-style-type: none;
+  border: 4px solid #000000;
+  padding: 3px;
+}
+
+.image-container a {
+  color: #36bffa;
+}
+
+.image-container a:hover {
+  color: #36bffa;
+}
+
+.image-container li:hover {
+  border: 4px solid #36bffa;
+}
+
+.image-container li:hover a {
+  color: #36bffa;
+}
+
+/* Fix for history tab overflow issue */
+.history-tab, 
+[class*="history"], 
+[class*="History"] {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: calc(10px + 1vmin);
+    color: #ffffff;
+    padding: 20px;
+    text-align: left;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    word-break: break-word;
+    max-width: 100vw;
+}
+
+/* Global fix for horizontal overflow */
+body, html {
+    overflow-x: hidden;
+    max-width: 100vw;
+    box-sizing: border-box;
+}
+
+/* Ensure all elements respect container bounds */
+* {
+    box-sizing: border-box;
+}

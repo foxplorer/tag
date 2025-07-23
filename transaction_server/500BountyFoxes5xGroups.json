@@ -1,0 +1,442 @@
+[
+  {
+    "foxGroup": "Bounty Foxes 5X Group #1",
+    "description": "",
+    "type": "",
+    "outpoint": "c69047a5be08cc8880e7911975a631542606d8062a6748c3d387331dfecb280c_0",
+    "link": "https://ordinals.gorillapool.io/content/c69047a5be08cc8880e7911975a631542606d8062a6748c3d387331dfecb280c_0",
+    "group": [
+      {
+        "origin.outpoint": "4c91afd69dfd599493a69afd0ffd68112bdde7fe02c0ff8cbcbeebb3a65f81df_191",
+        "foxData": {
+          "foxName": "Bounty Foxes #370",
+          "pixelFoxName": "Pixel Foxes #1977187"
+        }
+      },
+      {
+        "origin.outpoint": "dd2e02823cb08eef25f9a8b738bcf2b4ba6adc1d3c7b47c5c6a98eca4017f631_168",
+        "foxData": {
+          "foxName": "Bounty Foxes #18",
+          "pixelFoxName": "Pixel Foxes #1983164"
+        }
+      },
+      {
+        "origin.outpoint": "c1ce6747583243c6a190fdf17cf6f387552f5fe64e60b56480a71983a6111619_103",
+        "foxData": {
+          "foxName": "Bounty Foxes #200",
+          "pixelFoxName": "Pixel Foxes #1978599"
+        }
+      },
+      {
+        "origin.outpoint": "82f85640ddc92a6455ebe4417aa4fb00778e18d0374d677e044cbcf6f6db2710_280",
+        "foxData": {
+          "foxName": "Bounty Foxes #123",
+          "pixelFoxName": "Pixel Foxes #1979376"
+        }
+      },
+      {
+        "origin.outpoint": "e3cd128bb8e513e9e76e174ce2f3e0b1af8ccb4bfacc9d394aa89e9154652c27_178",
+        "foxData": {
+          "foxName": "Bounty Foxes #471",
+          "pixelFoxName": "Pixel Foxes #1976274"
+        }
+      }
+    ]
+  },
+  {
+    "foxGroup": "Bounty Foxes 5X Group #2",
+    "description": "",
+    "type": "",
+    "outpoint": "69f1f916793ead7c5a61fe534fb70917bd2dc80e8af1cc44061e996d05eecc55_0",
+    "link": "https://ordinals.gorillapool.io/content/69f1f916793ead7c5a61fe534fb70917bd2dc80e8af1cc44061e996d05eecc55_0",
+    "group": [
+      {
+        "origin.outpoint": "82f85640ddc92a6455ebe4417aa4fb00778e18d0374d677e044cbcf6f6db2710_7",
+        "foxData": {
+          "foxName": "Bounty Foxes #134",
+          "pixelFoxName": "Pixel Foxes #1979103"
+        }
+      },
+      {
+        "origin.outpoint": "52ccea10aa8bcaf3243e9ca5bded22c50bc7be617c3bd81549dab4949bcea7f0_143",
+        "foxData": {
+          "foxName": "Bounty Foxes #451",
+          "pixelFoxName": "Pixel Foxes #1976539"
+        }
+      },
+      {
+        "origin.outpoint": "4797748e16b893842d7e272fc2af1875a318f9051d5db757487fc5f67a936819_97",
+        "foxData": {
+          "foxName": "Bounty Foxes #232",
+          "pixelFoxName": "Pixel Foxes #1978293"
+        }
+      },
+      {
+        "origin.outpoint": "4797748e16b893842d7e272fc2af1875a318f9051d5db757487fc5f67a936819_146",
+        "foxData": {
+          "foxName": "Bounty Foxes #241",
+          "pixelFoxName": "Pixel Foxes #1978342"
+        }
+      },
+      {
+        "origin.outpoint": "4c91afd69dfd599493a69afd0ffd68112bdde7fe02c0ff8cbcbeebb3a65f81df_175",
+        "foxData": {
+          "foxName": "Bounty Foxes #371",
+          "pixelFoxName": "Pixel Foxes #1977171"
+        }
+      }
+    ]
+  },
+  {
+    "foxGroup": "Bounty Foxes 5X Group #3",
+    "description": "",
+    "type": "",
+    "outpoint": "8dcd29196f94154a1ecbfcebe79ec2af9da88f848ceb5fc1f0dfad388f4728df_0",
+    "link": "https://ordinals.gorillapool.io/content/8dcd29196f94154a1ecbfcebe79ec2af9da88f848ceb5fc1f0dfad388f4728df_0",
+    "group": [
+      {
+        "origin.outpoint": "ae4922475c1c7762a090f33bd2a42ab71ca4b8a3075ca23c4a57aad0c1542ba0_192",
+        "foxData": {
+          "foxName": "Bounty Foxes #315",
+          "pixelFoxName": "Pixel Foxes #1977788"
+        }
+      },
+      {
+        "origin.outpoint": "2d97b915ef6dad0d1da7626d5cc07316c310a6cb3344a7a2074d87419836c229_11",
+        "foxData": {
+          "foxName": "Bounty Foxes #122",
+          "pixelFoxName": "Pixel Foxes #1979407"
+        }
+      },
+      {
+        "origin.outpoint": "50ae30f72a0a9bc894e6b5fb0720c71031575e4a4b98178b283f21f900d30bc5_50",
+        "foxData": {
+          "foxName": "Bounty Foxes #173",
+          "pixelFoxName": "Pixel Foxes #1978846"
+        }
+      },
+      {
+        "origin.outpoint": "d666c532bc253c50ee7cc4174032342c71a4f19f65bdb8a9c7025251b96db947_241",
+        "foxData": {
+          "foxName": "Bounty Foxes #284",
+          "pixelFoxName": "Pixel Foxes #1978137"
+        }
+      },
+      {
+        "origin.outpoint": "3d63974ba95ed7c31c4176a50a05399648fdfbec90ed05a0bd8347a4cf952ee5_223",
+        "foxData": {
+          "foxName": "Bounty Foxes #327",
+          "pixelFoxName": "Pixel Foxes #1977519"
+        }
+      }
+    ]
+  },
+  {
+    "foxGroup": "Bounty Foxes 5X Group #4",
+    "description": "",
+    "type": "",
+    "outpoint": "372ebc33f7d1ee602bfded17d9e5869485cd5a396aa58b9f4e29462ae3e3d9c4_0",
+    "link": "https://ordinals.gorillapool.io/content/372ebc33f7d1ee602bfded17d9e5869485cd5a396aa58b9f4e29462ae3e3d9c4_0",
+    "group": [
+      {
+        "origin.outpoint": "4c91afd69dfd599493a69afd0ffd68112bdde7fe02c0ff8cbcbeebb3a65f81df_91",
+        "foxData": {
+          "foxName": "Bounty Foxes #389",
+          "pixelFoxName": "Pixel Foxes #1977087"
+        }
+      },
+      {
+        "origin.outpoint": "4c91afd69dfd599493a69afd0ffd68112bdde7fe02c0ff8cbcbeebb3a65f81df_232",
+        "foxData": {
+          "foxName": "Bounty Foxes #364",
+          "pixelFoxName": "Pixel Foxes #1977228"
+        }
+      },
+      {
+        "origin.outpoint": "4797748e16b893842d7e272fc2af1875a318f9051d5db757487fc5f67a936819_175",
+        "foxData": {
+          "foxName": "Bounty Foxes #245",
+          "pixelFoxName": "Pixel Foxes #1978371"
+        }
+      },
+      {
+        "origin.outpoint": "c1ce6747583243c6a190fdf17cf6f387552f5fe64e60b56480a71983a6111619_65",
+        "foxData": {
+          "foxName": "Bounty Foxes #206",
+          "pixelFoxName": "Pixel Foxes #1978561"
+        }
+      },
+      {
+        "origin.outpoint": "2d97b915ef6dad0d1da7626d5cc07316c310a6cb3344a7a2074d87419836c229_117",
+        "foxData": {
+          "foxName": "Bounty Foxes #117",
+          "pixelFoxName": "Pixel Foxes #1979513"
+        }
+      }
+    ]
+  },
+  {
+    "foxGroup": "Bounty Foxes 5X Group #5",
+    "description": "",
+    "type": "",
+    "outpoint": "c5831559e83356263b2244a70b2c5baf7b4a9cd402962c73e11a676530808d1e_0",
+    "link": "https://ordinals.gorillapool.io/content/c5831559e83356263b2244a70b2c5baf7b4a9cd402962c73e11a676530808d1e_0",
+    "group": [
+      {
+        "origin.outpoint": "2d97b915ef6dad0d1da7626d5cc07316c310a6cb3344a7a2074d87419836c229_288",
+        "foxData": {
+          "foxName": "Bounty Foxes #101",
+          "pixelFoxName": "Pixel Foxes #1979684"
+        }
+      },
+      {
+        "origin.outpoint": "a5102bd6f876c2eedeffae7c7c82960c18dcb39d825736283c7df4c6b7049234_264",
+        "foxData": {
+          "foxName": "Bounty Foxes #404",
+          "pixelFoxName": "Pixel Foxes #1976960"
+        }
+      },
+      {
+        "origin.outpoint": "a5102bd6f876c2eedeffae7c7c82960c18dcb39d825736283c7df4c6b7049234_279",
+        "foxData": {
+          "foxName": "Bounty Foxes #425",
+          "pixelFoxName": "Pixel Foxes #1976975"
+        }
+      },
+      {
+        "origin.outpoint": "2d97b915ef6dad0d1da7626d5cc07316c310a6cb3344a7a2074d87419836c229_223",
+        "foxData": {
+          "foxName": "Bounty Foxes #109",
+          "pixelFoxName": "Pixel Foxes #1979619"
+        }
+      },
+      {
+        "origin.outpoint": "ae4922475c1c7762a090f33bd2a42ab71ca4b8a3075ca23c4a57aad0c1542ba0_155",
+        "foxData": {
+          "foxName": "Bounty Foxes #313",
+          "pixelFoxName": "Pixel Foxes #1977751"
+        }
+      }
+    ]
+  },
+  {
+    "foxGroup": "Bounty Foxes 5X Group #6",
+    "description": "",
+    "type": "",
+    "outpoint": "94db04c608517aa48f990dec3d1edcb56216a6befa9ad77117f35cead36475cc_0",
+    "link": "https://ordinals.gorillapool.io/content/94db04c608517aa48f990dec3d1edcb56216a6befa9ad77117f35cead36475cc_0",
+    "group": [
+      {
+        "origin.outpoint": "52ccea10aa8bcaf3243e9ca5bded22c50bc7be617c3bd81549dab4949bcea7f0_113",
+        "foxData": {
+          "foxName": "Bounty Foxes #447",
+          "pixelFoxName": "Pixel Foxes #1976509"
+        }
+      },
+      {
+        "origin.outpoint": "ae4922475c1c7762a090f33bd2a42ab71ca4b8a3075ca23c4a57aad0c1542ba0_1",
+        "foxData": {
+          "foxName": "Bounty Foxes #303",
+          "pixelFoxName": "Pixel Foxes #1977597"
+        }
+      },
+      {
+        "origin.outpoint": "c1ce6747583243c6a190fdf17cf6f387552f5fe64e60b56480a71983a6111619_296",
+        "foxData": {
+          "foxName": "Bounty Foxes #193",
+          "pixelFoxName": "Pixel Foxes #1978792"
+        }
+      },
+      {
+        "origin.outpoint": "ae4922475c1c7762a090f33bd2a42ab71ca4b8a3075ca23c4a57aad0c1542ba0_42",
+        "foxData": {
+          "foxName": "Bounty Foxes #319",
+          "pixelFoxName": "Pixel Foxes #1977638"
+        }
+      },
+      {
+        "origin.outpoint": "4797748e16b893842d7e272fc2af1875a318f9051d5db757487fc5f67a936819_132",
+        "foxData": {
+          "foxName": "Bounty Foxes #240",
+          "pixelFoxName": "Pixel Foxes #1978328"
+        }
+      }
+    ]
+  },
+  {
+    "foxGroup": "Bounty Foxes 5X Group #7",
+    "description": "",
+    "type": "",
+    "outpoint": "900b4ca1eb1be8ac1db9d0fe2f1da9653d0e2593d1a24106650470b43fe58f79_0",
+    "link": "https://ordinals.gorillapool.io/content/900b4ca1eb1be8ac1db9d0fe2f1da9653d0e2593d1a24106650470b43fe58f79_0",
+    "group": [
+      {
+        "origin.outpoint": "c1ce6747583243c6a190fdf17cf6f387552f5fe64e60b56480a71983a6111619_11",
+        "foxData": {
+          "foxName": "Bounty Foxes #217",
+          "pixelFoxName": "Pixel Foxes #1978507"
+        }
+      },
+      {
+        "origin.outpoint": "d666c532bc253c50ee7cc4174032342c71a4f19f65bdb8a9c7025251b96db947_194",
+        "foxData": {
+          "foxName": "Bounty Foxes #287",
+          "pixelFoxName": "Pixel Foxes #1978090"
+        }
+      },
+      {
+        "origin.outpoint": "d666c532bc253c50ee7cc4174032342c71a4f19f65bdb8a9c7025251b96db947_214",
+        "foxData": {
+          "foxName": "Bounty Foxes #263",
+          "pixelFoxName": "Pixel Foxes #1978110"
+        }
+      },
+      {
+        "origin.outpoint": "50ae30f72a0a9bc894e6b5fb0720c71031575e4a4b98178b283f21f900d30bc5_256",
+        "foxData": {
+          "foxName": "Bounty Foxes #162",
+          "pixelFoxName": "Pixel Foxes #1979052"
+        }
+      },
+      {
+        "origin.outpoint": "52ccea10aa8bcaf3243e9ca5bded22c50bc7be617c3bd81549dab4949bcea7f0_262",
+        "foxData": {
+          "foxName": "Bounty Foxes #467",
+          "pixelFoxName": "Pixel Foxes #1976658"
+        }
+      }
+    ]
+  },
+  {
+    "foxGroup": "Bounty Foxes 5X Group #8",
+    "description": "",
+    "type": "",
+    "outpoint": "c8d69031e972557124cf3fa126b89776dd737eb80ae32e9f8ce940da03e8506e_0",
+    "link": "https://ordinals.gorillapool.io/content/c8d69031e972557124cf3fa126b89776dd737eb80ae32e9f8ce940da03e8506e_0",
+    "group": [
+      {
+        "origin.outpoint": "a5102bd6f876c2eedeffae7c7c82960c18dcb39d825736283c7df4c6b7049234_136",
+        "foxData": {
+          "foxName": "Bounty Foxes #437",
+          "pixelFoxName": "Pixel Foxes #1976832"
+        }
+      },
+      {
+        "origin.outpoint": "d666c532bc253c50ee7cc4174032342c71a4f19f65bdb8a9c7025251b96db947_124",
+        "foxData": {
+          "foxName": "Bounty Foxes #289",
+          "pixelFoxName": "Pixel Foxes #1978020"
+        }
+      },
+      {
+        "origin.outpoint": "dd2e02823cb08eef25f9a8b738bcf2b4ba6adc1d3c7b47c5c6a98eca4017f631_230",
+        "foxData": {
+          "foxName": "Bounty Foxes #11",
+          "pixelFoxName": "Pixel Foxes #1983226"
+        }
+      },
+      {
+        "origin.outpoint": "3d63974ba95ed7c31c4176a50a05399648fdfbec90ed05a0bd8347a4cf952ee5_82",
+        "foxData": {
+          "foxName": "Bounty Foxes #352",
+          "pixelFoxName": "Pixel Foxes #1977378"
+        }
+      },
+      {
+        "origin.outpoint": "50ae30f72a0a9bc894e6b5fb0720c71031575e4a4b98178b283f21f900d30bc5_174",
+        "foxData": {
+          "foxName": "Bounty Foxes #181",
+          "pixelFoxName": "Pixel Foxes #1978970"
+        }
+      }
+    ]
+  },
+  {
+    "foxGroup": "Bounty Foxes 5X Group #9",
+    "description": "",
+    "type": "",
+    "outpoint": "9747b5461a92c2e799f6c4c544e2068eb5e453fc37fd73f9a0bb4c9a0b1bddbc_0",
+    "link": "https://ordinals.gorillapool.io/content/9747b5461a92c2e799f6c4c544e2068eb5e453fc37fd73f9a0bb4c9a0b1bddbc_0",
+    "group": [
+      {
+        "origin.outpoint": "c1ce6747583243c6a190fdf17cf6f387552f5fe64e60b56480a71983a6111619_122",
+        "foxData": {
+          "foxName": "Bounty Foxes #210",
+          "pixelFoxName": "Pixel Foxes #1978618"
+        }
+      },
+      {
+        "origin.outpoint": "52ccea10aa8bcaf3243e9ca5bded22c50bc7be617c3bd81549dab4949bcea7f0_62",
+        "foxData": {
+          "foxName": "Bounty Foxes #446",
+          "pixelFoxName": "Pixel Foxes #1976458"
+        }
+      },
+      {
+        "origin.outpoint": "3d63974ba95ed7c31c4176a50a05399648fdfbec90ed05a0bd8347a4cf952ee5_285",
+        "foxData": {
+          "foxName": "Bounty Foxes #359",
+          "pixelFoxName": "Pixel Foxes #1977581"
+        }
+      },
+      {
+        "origin.outpoint": "a5102bd6f876c2eedeffae7c7c82960c18dcb39d825736283c7df4c6b7049234_96",
+        "foxData": {
+          "foxName": "Bounty Foxes #433",
+          "pixelFoxName": "Pixel Foxes #1976792"
+        }
+      },
+      {
+        "origin.outpoint": "e3cd128bb8e513e9e76e174ce2f3e0b1af8ccb4bfacc9d394aa89e9154652c27_126",
+        "foxData": {
+          "foxName": "Bounty Foxes #473",
+          "pixelFoxName": "Pixel Foxes #1976222"
+        }
+      }
+    ]
+  },
+  {
+    "foxGroup": "Bounty Foxes 5X Group #10",
+    "description": "",
+    "type": "",
+    "outpoint": "f453312d21f6d13833c250262e5dc58c013ea5c02c7bf179c20da7acdda051bb_0",
+    "link": "https://ordinals.gorillapool.io/content/f453312d21f6d13833c250262e5dc58c013ea5c02c7bf179c20da7acdda051bb_0",
+    "group": [
+      {
+        "origin.outpoint": "52ccea10aa8bcaf3243e9ca5bded22c50bc7be617c3bd81549dab4949bcea7f0_285",
+        "foxData": {
+          "foxName": "Bounty Foxes #460",
+          "pixelFoxName": "Pixel Foxes #1976681"
+        }
+      },
+      {
+        "origin.outpoint": "50ae30f72a0a9bc894e6b5fb0720c71031575e4a4b98178b283f21f900d30bc5_295",
+        "foxData": {
+          "foxName": "Bounty Foxes #186",
+          "pixelFoxName": "Pixel Foxes #1979091"
+        }
+      },
+      {
+        "origin.outpoint": "3d63974ba95ed7c31c4176a50a05399648fdfbec90ed05a0bd8347a4cf952ee5_100",
+        "foxData": {
+          "foxName": "Bounty Foxes #345",
+          "pixelFoxName": "Pixel Foxes #1977396"
+        }
+      },
+      {
+        "origin.outpoint": "2d97b915ef6dad0d1da7626d5cc07316c310a6cb3344a7a2074d87419836c229_45",
+        "foxData": {
+          "foxName": "Bounty Foxes #93",
+          "pixelFoxName": "Pixel Foxes #1979441"
+        }
+      },
+      {
+        "origin.outpoint": "d666c532bc253c50ee7cc4174032342c71a4f19f65bdb8a9c7025251b96db947_81",
+        "foxData": {
+          "foxName": "Bounty Foxes #275",
+          "pixelFoxName": "Pixel Foxes #1977977"
+        }
+      }
+    ]
+  }
+]
