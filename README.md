@@ -1,6 +1,6 @@
-# 🏷️ tag
+<img width="198" height="123" alt="tag100" src="https://github.com/user-attachments/assets/90a5545f-7856-4be0-b1a7-f2bfcf5ff98e" />
 
-> **"tag is just a prompt"**
+> **tag is just a prompt**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
