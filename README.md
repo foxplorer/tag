@@ -101,7 +101,7 @@ The game consists of three main components:
 1. **Clone the repository**
 ```bash
 git clone <repository-url>
-cd tag-open-sauce
+cd tag
 ```
 
 2. **Frontend Setup**
@@ -199,7 +199,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- [Pixel Foxes](https://x.com/foxespixel) for the iconic 10 million pixel foxes that bring the game to life and facilitate massive scale
+- [Pixel Foxes](https://x.com/foxespixel) for the iconic 10 million Pixel Foxes that bring the game to life and facilitate massive scale
 - [SHUAllet.js](https://github.com/jdh7190/SHUAllet.js/) for mobile wallet integration
 - [Yours Wallet](https://github.com/yours-org/yours-wallet) for browser extension support
 - Bitcoin SV community for blockchain infrastructure
