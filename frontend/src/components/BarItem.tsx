@@ -62,24 +62,27 @@ export const BarGraphItem = ({ todisplay }: BarGraphProps) => {
         let foxlength = kkk.length;
         for (let i = 0; i < foxlength; i++) {
           if (kkk[i] !== undefined) if (kkk[i].origin.data.map.subTypeData.collectionId === "1611d956f397caa80b56bc148b4bce87b54f39b234aeca4668b4d5a7785eb9fa_0") {
-              if (bginfo.length === 0){
-                let feed = {name: kkk[i].origin.data.map.subTypeData.traits[6].value, amount: 1};
-                bginfo.push(feed);
-              }
-              else{
-                let blength = bginfo.length;
-                let match = false;
-              for(let j = 0; j < blength; j++){
-                if (bginfo[j].name === kkk[i].origin.data.map.subTypeData.traits[6].value){
-                 //if it's in there, increase amount by one
-                 bginfo[j].amount++;
-                match = true;
+              const traits = kkk[i].origin.data.map.subTypeData.traits;
+              if (traits && traits[6] && traits[6].value) {
+                if (bginfo.length === 0){
+                  let feed = {name: traits[6].value, amount: 1};
+                  bginfo.push(feed);
                 }
-             }
-             if (match === false){
-              let feed = {name: kkk[i].origin.data.map.subTypeData.traits[6].value, amount: 1};
-              bginfo.push(feed);
-             }
+                else{
+                  let blength = bginfo.length;
+                  let match = false;
+                for(let j = 0; j < blength; j++){
+                  if (bginfo[j].name === traits[6].value){
+                   //if it's in there, increase amount by one
+                   bginfo[j].amount++;
+                  match = true;
+                  }
+               }
+               if (match === false){
+                let feed = {name: traits[6].value, amount: 1};
+                bginfo.push(feed);
+               }
+                }
               }
           }
         }

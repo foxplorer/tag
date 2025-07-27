@@ -107,83 +107,94 @@ const FoxFilters = ({ complete, setgettingfox, faucetvar, myvar, demovar, ordina
       foxlength = newstring.length;
       setTotalResults(newstring.length);
 
-      //set ordinals after purging non foxes by collection id
-        for (let i = 0; i < foxlength; i++) {     
-        if (newstring[i].origin?.data?.map?.subTypeData?.collectionId === "1611d956f397caa80b56bc148b4bce87b54f39b234aeca4668b4d5a7785eb9fa_0") {
-          if (bgOptions.includes(newstring[i].origin.data.map.subTypeData.traits[0].value)) {
-            //do nothing
-          } else {
-            bgOptions.push(newstring[i].origin.data.map.subTypeData.traits[0].value);
-          }
-        }
-      }
       //background options
       for (let i = 0; i < foxlength; i++) {     
         if (newstring[i].origin?.data?.map?.subTypeData?.collectionId === "1611d956f397caa80b56bc148b4bce87b54f39b234aeca4668b4d5a7785eb9fa_0") {
-          if (bgOptions.includes(newstring[i].origin.data.map.subTypeData.traits[0].value)) {
-            //do nothing
-          } else {
-            bgOptions.push(newstring[i].origin.data.map.subTypeData.traits[0].value);
+          const traits = newstring[i].origin.data.map.subTypeData.traits;
+          if (traits && traits[0] && traits[0].value) {
+            if (bgOptions.includes(traits[0].value)) {
+              //do nothing
+            } else {
+              bgOptions.push(traits[0].value);
+            }
           }
         }
       }
       //fox name options
       for (let i = 0; i < foxlength; i++) {
         if (newstring[i].origin?.data?.map?.subTypeData?.collectionId === "1611d956f397caa80b56bc148b4bce87b54f39b234aeca4668b4d5a7785eb9fa_0") {
-          if (nameOptions.includes(newstring[i].origin.data.map.subTypeData.traits[1].value)) {
-            //do nothing
-          } else {
-            nameOptions.push(newstring[i].origin.data.map.subTypeData.traits[1].value);
+          const traits = newstring[i].origin.data.map.subTypeData.traits;
+          if (traits && traits[1] && traits[1].value) {
+            if (nameOptions.includes(traits[1].value)) {
+              //do nothing
+            } else {
+              nameOptions.push(traits[1].value);
+            }
           }
         }
       }
       //body options
       for (let i = 0; i < foxlength; i++) {
         if (newstring[i].origin?.data?.map?.subTypeData?.collectionId === "1611d956f397caa80b56bc148b4bce87b54f39b234aeca4668b4d5a7785eb9fa_0") {
-          if (bodyOptions.includes(newstring[i].origin.data.map.subTypeData.traits[2].value)) {
-            //do nothing
-          } else {
-            bodyOptions.push(newstring[i].origin.data.map.subTypeData.traits[2].value);
+          const traits = newstring[i].origin.data.map.subTypeData.traits;
+          if (traits && traits[2] && traits[2].value) {
+            if (bodyOptions.includes(traits[2].value)) {
+              //do nothing
+            } else {
+              bodyOptions.push(traits[2].value);
+            }
           }
         }
       }
       //mouthOptions options
       for (let i = 0; i < foxlength; i++) {
         if (newstring[i].origin?.data?.map?.subTypeData?.collectionId === "1611d956f397caa80b56bc148b4bce87b54f39b234aeca4668b4d5a7785eb9fa_0") {
-          if (mouthOptions.includes(newstring[i].origin.data.map.subTypeData.traits[3].value)) {
-            //do nothing
-          } else {
-            mouthOptions.push(newstring[i].origin.data.map.subTypeData.traits[3].value);
+          const traits = newstring[i].origin.data.map.subTypeData.traits;
+          if (traits && traits[3] && traits[3].value) {
+            if (mouthOptions.includes(traits[3].value)) {
+              //do nothing
+            } else {
+              mouthOptions.push(traits[3].value);
+            }
           }
         }
       }
       //headOptions options
       for (let i = 0; i < foxlength; i++) {
         if (newstring[i].origin?.data?.map?.subTypeData?.collectionId === "1611d956f397caa80b56bc148b4bce87b54f39b234aeca4668b4d5a7785eb9fa_0") {
-          if (headOptions.includes(newstring[i].origin.data.map.subTypeData.traits[4].value)) {
-            //do nothing
-          } else {
-            headOptions.push(newstring[i].origin.data.map.subTypeData.traits[4].value);
+          const traits = newstring[i].origin.data.map.subTypeData.traits;
+          if (traits && traits[4] && traits[4].value) {
+            if (headOptions.includes(traits[4].value)) {
+              //do nothing
+            } else {
+              headOptions.push(traits[4].value);
+            }
           }
         }
       }
       //eyesOptions options
       for (let i = 0; i < foxlength; i++) {
         if (newstring[i].origin?.data?.map?.subTypeData?.collectionId === "1611d956f397caa80b56bc148b4bce87b54f39b234aeca4668b4d5a7785eb9fa_0") {
-          if (eyesOptions.includes(newstring[i].origin.data.map.subTypeData.traits[5].value)) {
-            //do nothing
-          } else {
-            eyesOptions.push(newstring[i].origin.data.map.subTypeData.traits[5].value);
+          const traits = newstring[i].origin.data.map.subTypeData.traits;
+          if (traits && traits[5] && traits[5].value) {
+            if (eyesOptions.includes(traits[5].value)) {
+              //do nothing
+            } else {
+              eyesOptions.push(traits[5].value);
+            }
           }
         }
       }
       //itemOptions options
       for (let i = 0; i < foxlength; i++) {
         if (newstring[i].origin?.data?.map?.subTypeData?.collectionId === "1611d956f397caa80b56bc148b4bce87b54f39b234aeca4668b4d5a7785eb9fa_0") {
-          if (itemOptions.includes(newstring[i].origin.data.map.subTypeData.traits[6].value)) {
-            //do nothing
-          } else {
-            itemOptions.push(newstring[i].origin.data.map.subTypeData.traits[6].value);
+          const traits = newstring[i].origin.data.map.subTypeData.traits;
+          if (traits && traits[6] && traits[6].value) {
+            if (itemOptions.includes(traits[6].value)) {
+              //do nothing
+            } else {
+              itemOptions.push(traits[6].value);
+            }
           }
         }
       }
@@ -316,13 +327,14 @@ const FoxFilters = ({ complete, setgettingfox, faucetvar, myvar, demovar, ordina
     //2.0 search
     for (let i = 0; i < nnn; i++) {
       //get fox json vars
-      let mybg = jjj[i].origin?.data?.map?.subTypeData?.traits[0].value;
-      let myfox = jjj[i].origin?.data?.map?.subTypeData?.traits[1].value;
-      let mybody = jjj[i].origin?.data?.map?.subTypeData?.traits[2].value;
-      let mymouth = jjj[i].origin?.data?.map?.subTypeData?.traits[3].value;
-      let myhead = jjj[i].origin?.data?.map?.subTypeData?.traits[4].value;
-      let myeyes = jjj[i].origin?.data?.map?.subTypeData?.traits[5].value;
-      let myitem = jjj[i].origin?.data?.map?.subTypeData?.traits[6].value;
+      const traits = jjj[i].origin?.data?.map?.subTypeData?.traits;
+      let mybg = traits && traits[0] ? traits[0].value : undefined;
+      let myfox = traits && traits[1] ? traits[1].value : undefined;
+      let mybody = traits && traits[2] ? traits[2].value : undefined;
+      let mymouth = traits && traits[3] ? traits[3].value : undefined;
+      let myhead = traits && traits[4] ? traits[4].value : undefined;
+      let myeyes = traits && traits[5] ? traits[5].value : undefined;
+      let myitem = traits && traits[6] ? traits[6].value : undefined;
 
       //push if we have a match
       if (((background === mybg) || (background === "all"))
