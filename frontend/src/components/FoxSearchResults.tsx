@@ -492,13 +492,30 @@ const FoxSearchResults: React.FC<FoxSearchResultsProps> = ({
               foxData.link = "https://alpha.1satordinals.com/outpoint/" + ppp[i].origin.outpoint + "/inscription";
               foxData.imgid = ppp[i].origin.outpoint;
               foxData.outpoint = ppp[i].outpoint;
-              foxData.trait1 = ppp[i].origin.data.map.subTypeData.traits[0].value;
-              foxData.trait2 = ppp[i].origin.data.map.subTypeData.traits[1].value;
-              foxData.trait3 = ppp[i].origin.data.map.subTypeData.traits[2].value;
-              foxData.trait4 = ppp[i].origin.data.map.subTypeData.traits[3].value;
-              foxData.trait5 = ppp[i].origin.data.map.subTypeData.traits[4].value;
-              foxData.trait6 = ppp[i].origin.data.map.subTypeData.traits[5].value;
-              foxData.trait7 = ppp[i].origin.data.map.subTypeData.traits[6].value;
+              const traits = ppp[i].origin.data.map.subTypeData.traits;
+              // Check if traits exist and have proper structure with all 7 traits
+              if (traits && Array.isArray(traits) && traits.length >= 6) {
+                foxData.trait1 = traits[0] && traits[0].value ? traits[0].value : " ";
+                foxData.trait2 = traits[1] && traits[1].value ? traits[1].value : " ";
+                foxData.trait3 = traits[2] && traits[2].value ? traits[2].value : " ";
+                foxData.trait4 = traits[3] && traits[3].value ? traits[3].value : " ";
+                foxData.trait5 = traits[4] && traits[4].value ? traits[4].value : " ";
+                foxData.trait6 = traits[5] && traits[5].value ? traits[5].value : " ";
+                foxData.trait7 = traits[6] && traits[6].value ? traits[6].value : "none";
+              } else {
+                // If no traits, invalid structure, or fewer than 6 traits, set all to non-breaking spaces
+                foxData.trait1 = "\u00A0";
+                foxData.trait2 = "\u00A0";
+                foxData.trait3 = "\u00A0";
+                foxData.trait4 = "\u00A0";
+                foxData.trait5 = "\u00A0";
+                foxData.trait6 = "\u00A0";
+                foxData.trait7 = "\u00A0";
+                // Modify the name for foxes with incomplete traits
+                if (foxData.name && foxData.name.startsWith("Fox #")) {
+                  foxData.name = "Pixel Foxes " + foxData.name.substring(4);
+                }
+              }
               foxData.owner = ppp[i].owner;
               // Try to find the fox data in the disappearing foxes group first
               let foundFoxData = false;
@@ -959,52 +976,9 @@ const FoxSearchResults: React.FC<FoxSearchResultsProps> = ({
       {!showgetfoxscreen && !showPlinkoGame && (
         <>
           <div className="H3Wrapper">
-            <h3>{foxType === 'lucky' ? 'Lucky Foxes' : foxType === 'disappearing' ? 'Disappearing Foxes' : foxType === 'falling' ? 'Falling Foxes' : foxType === 'bounty' ? 'Bounty Foxes' : foxType === 'mobile-friendly' ? 'Mobile-Friendly Foxes' : 'Rolling Foxes'}: {numresults} / {totalresults}</h3>
-            <span className="RaiseLinks">
-              <div className="WhiteGroupLinks"><a target="blank" href={foxType === 'lucky' ? "https://ordinals.gorillapool.io/content/feff68eb89dfb650b80d6ac02e80edc97bb0749569f5a05921eda1505b01edd1_0" : foxType === 'disappearing' ? "https://ordinals.gorillapool.io/content/21136e1eeac2cafb2d1d1f57a114c6c17c50b14cf0558511609401a797f2f2e8_0" : foxType === 'falling' ? "https://ordinals.gorillapool.io/content/6defffd8d7a79a1b6d4036ece63a05cf5e54c06be5beaf0b25e99f6e0dc8e3cb_0" : foxType === 'bounty' ? "https://ordinals.gorillapool.io/content/7a85e1d3de33e43c3706ae21fe93e41a88ae08b58b7b6f124f6ccc4827d26cc3_0" : foxType === 'mobile-friendly' ? "https://ordinals.gorillapool.io/content/7a5b9a2c686a6bfcbfdcc81b9f8d0bf4131dea778fd5603c591e06c03c3c79f4_0" : "https://ordinals.gorillapool.io/content/feff68eb89dfb650b80d6ac02e80edc97bb0749569f5a05921eda1505b01edd1_0"}><u>Group</u></a></div>
-              <br />
-              <div className="WhiteGroupLinks" style={{ textAlign: 'left', width: '100%', margin: '' }}>
-                <span style={{ color: '#808080', display: 'inline-block', width: '105px' }}>Available:</span>
-                {availableLoading ? (
-                  <span style={{ display: 'inline-flex', width: '20px', height: '20px', alignItems: 'center', justifyContent: 'center', position: 'relative', top: '-5px' }}>
-                    <PulseLoader color="#808080" size={4} />
-                  </span>
-                ) : (
-          
-                  <span style={{ color: '#808080' }}>{numAvailable}</span>
-                )} <span style={{ color: '#808080' }}>/</span> <span style={{ color: '#808080' }}>{totalresults}</span>
-              </div>
-              <div className="WhiteGroupLinks" style={{ textAlign: 'left', width: '100%', margin: '' }}>
-                <span style={{ color: '#808080', display: 'inline-block', width: '105px' }}>You own:</span>
-                {!myordinalsaddress ? (
-                  <span>
-                    <a 
-                      onClick={() => handleConnect && handleConnect()}
-                      style={{ color: '#808080', textDecoration: 'underline', cursor: 'pointer' }}
-                    >
-                      {connectLoading ? (
-                        <span style={{ display: 'inline-flex', width: '20px', height: '20px', alignItems: 'center', justifyContent: 'center', position: 'relative', top: '-5px' }}>
-                          <PulseLoader color="#808080" size={4} />
-                        </span>
-                      ) : (
-                        'Connect to view'
-                      )}
-                    </a>
-                  </span>
-                ) : (
-                  countLoading ? (
-                    <span style={{ display: 'inline-flex', width: '20px', height: '20px', alignItems: 'center', justifyContent: 'center', position: 'relative', top: '-5px' }}>
-                      <PulseLoader color="#808080" size={4} />
-                    </span>
-                  ) : (
-                    <span style={{ color: '#808080' }}>{ownedOutpoints.length}</span>
-                  )
-                )} <span style={{ color: '#808080' }}>/</span> <span style={{ color: '#808080' }}>{totalresults}</span>
-              </div>
-            </span>
+            <h3>Results: {numresults} / {totalresults}</h3>
           </div>
-          <div className="Foxplorer" style={{ padding: '0 15px', boxSizing: 'border-box' }}>
-            <br />
+          <div className="Foxplorer">
             <div className="CenterLoader">
               {loading && (
                 <>
@@ -1013,331 +987,23 @@ const FoxSearchResults: React.FC<FoxSearchResultsProps> = ({
               )}
             </div>
 
-            <ul id="image-container" style={{ padding: '0', margin: '0', boxSizing: 'border-box' }}>
-              {/* Your Lucky Foxes Section */}
-              {myordinalsaddress && ownedOutpoints.length > 0 && (
-                <>
-                  <div style={{ 
-                    width: '100%', 
-                    maxWidth: '100%',
-                    textAlign: 'center', 
-                    margin: '20px 0 10px 0',
-                    padding: '10px 10px',
-                    backgroundColor: 'rgba(76, 175, 80, 0.1)',
-                    borderRadius: '8px',
-                    border: '1px solid #4CAF50',
-                    boxSizing: 'border-box'
-                  }}>
-                    <h3 style={{ color: '#32CD32', margin: '0', fontSize: '18px' }}>Your {foxType === 'lucky' ? 'Lucky' : foxType === 'disappearing' ? 'Disappearing' : foxType === 'falling' ? 'Falling' : foxType === 'bounty' ? 'Bounty' : foxType === 'mobile-friendly' ? 'Mobile-Friendly' : 'Rolling'} Foxes: {allFaucetFoxes.filter(data => ownedOutpoints.includes(data.imgid)).length} / {ownedOutpoints.length}</h3>
-                  </div>
-                  {allFaucetFoxes.filter(data => ownedOutpoints.includes(data.imgid)).slice(0, ownedFoxesDisplayed).map(function (data) {
-                    return (
-                      <li key={uuidv4()} style={{ 
-                        border: '4px solid #000000',
-                        transition: 'border-color 0.2s ease, opacity 0.1s ease',
-                        position: 'relative',
-                        opacity: getFadeOpacity(data.imgid)
-                      }} onMouseEnter={(e) => {
-                        if (ownedOutpoints.includes(data.imgid)) {
-                          e.currentTarget.style.borderColor = '#4CAF50';
-                        } else if (available.includes(data.imgid)) {
-                          e.currentTarget.style.borderColor = '#36bffa';
-                        } else {
-                          e.currentTarget.style.borderColor = '#f44336';
-                        }
-                      }} onMouseLeave={(e) => {
-                        e.currentTarget.style.borderColor = '#000000';
-                      }}>
-                        {/* Yours Badge */}
-                        {ownedOutpoints.includes(data.imgid) && (
-                          <div style={{
-                            position: 'absolute',
-                            top: '5px',
-                            right: '5px',
-                            backgroundColor: '#4CAF50',
-                            color: 'white',
-                            fontSize: '10px',
-                            padding: '2px 6px',
-                            borderRadius: '10px',
-                            fontWeight: 'bold',
-                            zIndex: 10,
-                            transition: 'background-color 0.2s ease',
-                            cursor: 'pointer'
-                          }} onMouseEnter={(e) => {
-                            e.currentTarget.style.backgroundColor = '#2E7D32';
-                          }} onMouseLeave={(e) => {
-                            e.currentTarget.style.backgroundColor = '#4CAF50';
-                          }}>
-                            Yours
-                          </div>
-                        )}
-                        
-                        {/* Available Badge */}
-                        {!ownedOutpoints.includes(data.imgid) && available.includes(data.imgid) && (
-                          <div style={{
-                            position: 'absolute',
-                            top: '5px',
-                            right: '5px',
-                            backgroundColor: '#36bffa',
-                            color: 'white',
-                            fontSize: '10px',
-                            padding: '2px 6px',
-                            borderRadius: '10px',
-                            fontWeight: 'bold',
-                            zIndex: 10,
-                            transition: 'background-color 0.2s ease',
-                            cursor: 'pointer'
-                          }} onMouseEnter={(e) => {
-                            e.currentTarget.style.backgroundColor = '#1976d2';
-                          }} onMouseLeave={(e) => {
-                            e.currentTarget.style.backgroundColor = '#36bffa';
-                          }} onClick={() => {
-                            // Trigger the available action
-                            isavailable();
-                          }}>
-                            Available
-                          </div>
-                        )}
-                        
-                        {/* Taken Badge */}
-                        {!ownedOutpoints.includes(data.imgid) && !available.includes(data.imgid) && (
-                          <div style={{
-                            position: 'absolute',
-                            top: '5px',
-                            right: '5px',
-                            backgroundColor: '#f44336',
-                            color: 'white',
-                            fontSize: '10px',
-                            padding: '2px 6px',
-                            borderRadius: '10px',
-                            fontWeight: 'bold',
-                            zIndex: 10,
-                            transition: 'background-color 0.2s ease',
-                            cursor: 'pointer'
-                          }} onMouseEnter={(e) => {
-                            e.currentTarget.style.backgroundColor = '#d32f2f';
-                          }} onMouseLeave={(e) => {
-                            e.currentTarget.style.backgroundColor = '#f44336';
-                          }} onClick={() => {
-                            taken();
-                          }}>
-                            Taken
-                          </div>
-                        )}
-                        
-                        <a target="blank"
-                          href={data.link}>
-                          <img src={data.img}
-                            className="seventraitfoxes"
-                            id={data.imgid} />
-                        </a>
-                        <span className="FoxTitle" style={{ 
-                          minHeight: '50px',
-                          display: 'flex',
-                          flexDirection: 'column',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          marginBottom: '2px',
-                          overflow: 'hidden',
-                          textOverflow: 'ellipsis',
-                          maxWidth: '100%'
-                        }}>
-                          <a target="blank" href={data.link} style={{
-                            overflow: 'hidden',
-                            textOverflow: 'ellipsis',
-                            maxWidth: '100%',
-                            width: '100%',
-                            display: 'block',
-                            whiteSpace: 'nowrap',
-                            wordBreak: 'keep-all',
-                            wordWrap: 'normal',
-                            overflowWrap: 'normal'
-                          }}>{data.foxData?.foxName || 'Unknown Fox'}</a><br />
-                          {data.foxData?.pixelFoxName || 'Unknown Pixel Fox'}
-                        </span>
-                        <div className="BlueTraits">{data.trait1}<br />{data.trait2}<br />{data.trait3}<br />{data.trait4}<br />{data.trait5}<br />{data.trait6}<br />{data.trait7}</div>
-                      </li>
-                    )
-                  })}
-                  {showMoreOwned && (
-                    <>
-                      <div id="ShowMore">
-                        <button 
-                          onClick={showMoreOwnedFoxes}
-                          style={{
-                            padding: "0.75rem 1.5rem",
-                            borderRadius: "0.5rem",
-                            margin: "10px",
-                            cursor: "pointer",
-                            fontSize: "0.875rem",
-                            fontWeight: 600,
-                            color: "#4CAF50",
-                            backgroundColor: "#000000",
-                            border: "2px solid #4CAF50",
-                            zIndex: "10",
-                            whiteSpace: "nowrap",
-                            transition: "all 0.2s ease",
-                            transform: "none"
-                          }}
-                          onMouseOver={(e) => {
-                            e.currentTarget.style.backgroundColor = "#4CAF50";
-                            e.currentTarget.style.color = "#ffffff";
-                          }}
-                          onMouseOut={(e) => {
-                            e.currentTarget.style.backgroundColor = "#000000";
-                            e.currentTarget.style.color = "#4CAF50";
-                          }}
-                        >
-                          Show More
-                        </button>
-                      </div>
-                    </>
-                  )}
-                </>
-              )}
-
-              {/* All Lucky Foxes Section */}
-              <div style={{ 
-                width: '100%', 
-                maxWidth: '100%',
-                textAlign: 'center', 
-                margin: '20px 0 10px 0',
-                padding: '10px 10px',
-                backgroundColor: 'rgba(54, 191, 250, 0.1)',
-                borderRadius: '8px',
-                border: '1px solid #36bffa',
-                boxSizing: 'border-box'
-              }}>
-                <h3 style={{ color: '#36bffa', margin: '0', fontSize: '18px' }}>All {foxType === 'lucky' ? 'Lucky' : foxType === 'disappearing' ? 'Disappearing' : foxType === 'falling' ? 'Falling' : foxType === 'bounty' ? 'Bounty' : foxType === 'mobile-friendly' ? 'Mobile-Friendly' : 'Rolling'} Foxes: {allProcessedFoxes.length} / {totalresults}</h3>
-              </div>
+            <ul id="image-container">
               {displayfaucetfoxes &&
                 <>
                   {displayfaucetfoxes.map(function (data) {
                     return (
-                      <li key={uuidv4()} style={{ 
-                        border: '4px solid #000000',
-                        transition: 'border-color 0.2s ease, opacity 0.1s ease',
-                        position: 'relative',
-                        opacity: getFadeOpacity(data.imgid)
-                      }} onMouseEnter={(e) => {
-                        if (ownedOutpoints.includes(data.imgid)) {
-                          e.currentTarget.style.borderColor = '#4CAF50';
-                        } else if (available.includes(data.imgid)) {
-                          e.currentTarget.style.borderColor = '#36bffa';
-                        } else {
-                          e.currentTarget.style.borderColor = '#f44336';
-                        }
-                      }} onMouseLeave={(e) => {
-                        e.currentTarget.style.borderColor = '#000000';
-                      }}>
-                        {/* Yours Badge */}
-                        {ownedOutpoints.includes(data.imgid) && (
-                          <div style={{
-                            position: 'absolute',
-                            top: '5px',
-                            right: '5px',
-                            backgroundColor: '#4CAF50',
-                            color: 'white',
-                            fontSize: '10px',
-                            padding: '2px 6px',
-                            borderRadius: '10px',
-                            fontWeight: 'bold',
-                            zIndex: 10,
-                            transition: 'background-color 0.2s ease',
-                            cursor: 'pointer'
-                          }} onMouseEnter={(e) => {
-                            e.currentTarget.style.backgroundColor = '#2E7D32';
-                          }} onMouseLeave={(e) => {
-                            e.currentTarget.style.backgroundColor = '#4CAF50';
-                          }}>
-                            Yours
-                          </div>
-                        )}
-                        
-                        {/* Available Badge */}
-                        {!ownedOutpoints.includes(data.imgid) && available.includes(data.imgid) && (
-                          <div style={{
-                            position: 'absolute',
-                            top: '5px',
-                            right: '5px',
-                            backgroundColor: '#36bffa',
-                            color: 'white',
-                            fontSize: '10px',
-                            padding: '2px 6px',
-                            borderRadius: '10px',
-                            fontWeight: 'bold',
-                            zIndex: 10,
-                            transition: 'background-color 0.2s ease',
-                            cursor: 'pointer'
-                          }} onMouseEnter={(e) => {
-                            e.currentTarget.style.backgroundColor = '#1976d2';
-                          }} onMouseLeave={(e) => {
-                            e.currentTarget.style.backgroundColor = '#36bffa';
-                          }} onClick={() => {
-                            // Trigger the available action
-                            isavailable();
-                          }}>
-                            Available
-                          </div>
-                        )}
-                        
-                        {/* Taken Badge */}
-                        {!ownedOutpoints.includes(data.imgid) && !available.includes(data.imgid) && (
-                          <div style={{
-                            position: 'absolute',
-                            top: '5px',
-                            right: '5px',
-                            backgroundColor: '#f44336',
-                            color: 'white',
-                            fontSize: '10px',
-                            padding: '2px 6px',
-                            borderRadius: '10px',
-                            fontWeight: 'bold',
-                            zIndex: 10,
-                            transition: 'background-color 0.2s ease',
-                            cursor: 'pointer'
-                          }} onMouseEnter={(e) => {
-                            e.currentTarget.style.backgroundColor = '#d32f2f';
-                          }} onMouseLeave={(e) => {
-                            e.currentTarget.style.backgroundColor = '#f44336';
-                          }} onClick={() => {
-                            taken();
-                          }}>
-                            Taken
-                          </div>
-                        )}
-                        
+                      <li key={uuidv4()}>
                         <a target="blank"
                           href={data.link}>
                           <img src={data.img}
                             className="seventraitfoxes"
                             id={data.imgid} />
                         </a>
-                        <span className="FoxTitle" style={{ 
-                          minHeight: '50px',
-                          display: 'flex',
-                          flexDirection: 'column',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          marginBottom: '2px',
-                          overflow: 'hidden',
-                          textOverflow: 'ellipsis',
-                          maxWidth: '100%'
-                        }}>
-                          <a target="blank" href={data.link} style={{
-                            overflow: 'hidden',
-                            textOverflow: 'ellipsis',
-                            maxWidth: '100%',
-                            width: '100%',
-                            display: 'block',
-                            whiteSpace: 'nowrap',
-                            wordBreak: 'keep-all',
-                            wordWrap: 'normal',
-                            overflowWrap: 'normal'
-                          }}>{data.foxData?.foxName || 'Unknown Fox'}</a><br />
-                          {data.foxData?.pixelFoxName || 'Unknown Pixel Fox'}
+                        <br />
+                        <span className="TwinName">
+                          <a target="blank" href={data.link}>{data.foxData?.foxName || data.name}</a>
                         </span>
-                        <div className="BlueTraits">{data.trait1}<br />{data.trait2}<br />{data.trait3}<br />{data.trait4}<br />{data.trait5}<br />{data.trait6}<br />{data.trait7}</div>
+                        <div className="ResultsTraits">{data.trait1}<br />{data.trait2}<br />{data.trait3}<br />{data.trait4}<br />{data.trait5}<br />{data.trait6}<br />{data.trait7}</div>
                       </li>
                     )
                   })}
@@ -1376,12 +1042,6 @@ const FoxSearchResults: React.FC<FoxSearchResultsProps> = ({
               />
             )}
           </div>
-
-          {/* Add LuckyFoxesGroups component */}
-          {/* <LuckyFoxesGroups myordinalsaddress={myordinalsaddress} /> */}
-
-          {/* commenting out for now until we have a way to display twins */}
-          {/* <TwinFinderFaucet available={available} faucetvar={faucetvar} todisplay={todisplay} totalresults={totalresults} passedFunction={passedFunction} getFox={getFox} /> */}
         </>
       )}
       

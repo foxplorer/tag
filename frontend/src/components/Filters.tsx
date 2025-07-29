@@ -103,7 +103,10 @@ const Filters = ({ faucetvar, myvar, demovar, pickvar, tag, ordinalsstring, myor
         if (newstring[i].origin?.data?.map?.subTypeData?.collectionId === "1611d956f397caa80b56bc148b4bce87b54f39b234aeca4668b4d5a7785eb9fa_0") {
           const traits = newstring[i].origin.data.map.subTypeData.traits;
           if (traits && traits[0] && traits[0].value) {
-            if (bgOptions.includes(traits[0].value)) {
+            // Filter out "Blue" from background options
+            if (traits[0].value === "Blue") {
+              //do nothing - skip this option
+            } else if (bgOptions.includes(traits[0].value)) {
               //do nothing
             } else {
               bgOptions.push(traits[0].value);
@@ -116,7 +119,10 @@ const Filters = ({ faucetvar, myvar, demovar, pickvar, tag, ordinalsstring, myor
         if (newstring[i].origin?.data?.map?.subTypeData?.collectionId === "1611d956f397caa80b56bc148b4bce87b54f39b234aeca4668b4d5a7785eb9fa_0") {
           const traits = newstring[i].origin.data.map.subTypeData.traits;
           if (traits && traits[1] && traits[1].value) {
-            if (nameOptions.includes(traits[1].value)) {
+            // Filter out "Orange" from fox name options
+            if (traits[1].value === "Orange") {
+              //do nothing - skip this option
+            } else if (nameOptions.includes(traits[1].value)) {
               //do nothing
             } else {
               nameOptions.push(traits[1].value);

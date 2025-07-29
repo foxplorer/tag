@@ -24,10 +24,19 @@
 
 .Actions {
   width: 100px;
+  text-align: center;
+  text-align-last: center;
+}
+
+.Actions option {
+  text-align: left;
 }
 
 .ActionsContainer {
-  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .LoaderHeight {
@@ -1374,7 +1383,7 @@ overflow-x: hidden;
 }
 
 .TwinName a {
-  font-size: calc(10px + .8vmin);
+  font-size: calc(8px + .8vmin);
 }
 .TwinNameDate {
   font-size: calc(8px + .8vmin);
@@ -1394,7 +1403,7 @@ overflow-x: hidden;
 .ResultsTraits {
   color: #8b8b8b;
   text-align: center;
-  font-size: calc(5px + .8vmin);
+  font-size: calc(5px + .6vmin);
   white-space: nowrap;
   margin: 5px;
 }

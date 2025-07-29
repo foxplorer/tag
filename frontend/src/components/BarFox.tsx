@@ -62,24 +62,32 @@ export const BarGraphFox = ({ todisplay }: BarGraphProps) => {
         let foxlength = kkk.length;
         for (let i = 0; i < foxlength; i++) {
           if (kkk[i] !== undefined) if (kkk[i].origin.data.map.subTypeData.collectionId === "1611d956f397caa80b56bc148b4bce87b54f39b234aeca4668b4d5a7785eb9fa_0") {
-              if (bginfo.length === 0){
-                let feed = {name: kkk[i].origin.data.map.subTypeData.traits[1].value, amount: 1};
-                bginfo.push(feed);
-              }
-              else{
-                let blength = bginfo.length;
-                let match = false;
-              for(let j = 0; j < blength; j++){
-                if (bginfo[j].name === kkk[i].origin.data.map.subTypeData.traits[1].value){
-                 //if it's in there, increase amount by one
-                 bginfo[j].amount++;
-                match = true;
+              const traits = kkk[i].origin.data.map.subTypeData.traits;
+              if (traits && traits[1] && traits[1].value) {
+                // Filter out "Orange" from fox name chart
+                if (traits[1].value === "Orange") {
+                  // Skip this option
+                } else {
+                  if (bginfo.length === 0){
+                    let feed = {name: traits[1].value, amount: 1};
+                    bginfo.push(feed);
+                  }
+                  else{
+                    let blength = bginfo.length;
+                    let match = false;
+                  for(let j = 0; j < blength; j++){
+                    if (bginfo[j].name === traits[1].value){
+                     //if it's in there, increase amount by one
+                     bginfo[j].amount++;
+                    match = true;
+                    }
+                 }
+                 if (match === false){
+                  let feed = {name: traits[1].value, amount: 1};
+                  bginfo.push(feed);
+                 }
+                  }
                 }
-             }
-             if (match === false){
-              let feed = {name: kkk[i].origin.data.map.subTypeData.traits[1].value, amount: 1};
-              bginfo.push(feed);
-             }
               }
           }
         }

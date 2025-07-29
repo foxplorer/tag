@@ -333,13 +333,29 @@ const TagSearchResults = ({ showactions, setsearchloading, passedFunctionFromFil
           displayfaucetfoxestemp[d].link = "https://alpha.1satordinals.com/outpoint/" + ppp[i].origin.outpoint + "/inscription";
           displayfaucetfoxestemp[d].imgid = ppp[i].origin.outpoint;
           const traits = ppp[i].origin.data.map.subTypeData.traits;
-          displayfaucetfoxestemp[d].trait1 = traits && traits[0] ? traits[0].value : "";
-          displayfaucetfoxestemp[d].trait2 = traits && traits[1] ? traits[1].value : "";
-          displayfaucetfoxestemp[d].trait3 = traits && traits[2] ? traits[2].value : "";
-          displayfaucetfoxestemp[d].trait4 = traits && traits[3] ? traits[3].value : "";
-          displayfaucetfoxestemp[d].trait5 = traits && traits[4] ? traits[4].value : "";
-          displayfaucetfoxestemp[d].trait6 = traits && traits[5] ? traits[5].value : "";
-          displayfaucetfoxestemp[d].trait7 = traits && traits[6] ? traits[6].value : "";
+          // Check if traits exist and have proper structure with all 7 traits
+          if (traits && Array.isArray(traits) && traits.length >= 6) {
+            displayfaucetfoxestemp[d].trait1 = traits[0] && traits[0].value ? traits[0].value : "\u00A0";
+            displayfaucetfoxestemp[d].trait2 = traits[1] && traits[1].value ? traits[1].value : "\u00A0";
+            displayfaucetfoxestemp[d].trait3 = traits[2] && traits[2].value ? traits[2].value : "\u00A0";
+            displayfaucetfoxestemp[d].trait4 = traits[3] && traits[3].value ? traits[3].value : "\u00A0";
+            displayfaucetfoxestemp[d].trait5 = traits[4] && traits[4].value ? traits[4].value : "\u00A0";
+            displayfaucetfoxestemp[d].trait6 = traits[5] && traits[5].value ? traits[5].value : "\u00A0";
+            displayfaucetfoxestemp[d].trait7 = traits[6] && traits[6].value ? traits[6].value : "none";
+          } else {
+            // If no traits, invalid structure, or fewer than 6 traits, set all to non-breaking spaces
+            displayfaucetfoxestemp[d].trait1 = "\u00A0";
+            displayfaucetfoxestemp[d].trait2 = "\u00A0";
+            displayfaucetfoxestemp[d].trait3 = "\u00A0";
+            displayfaucetfoxestemp[d].trait4 = "\u00A0";
+            displayfaucetfoxestemp[d].trait5 = "\u00A0";
+            displayfaucetfoxestemp[d].trait6 = "\u00A0";
+            displayfaucetfoxestemp[d].trait7 = "\u00A0";
+            // Modify the name for foxes with incomplete traits
+            if (displayfaucetfoxestemp[d].name && displayfaucetfoxestemp[d].name.startsWith("Fox #")) {
+              displayfaucetfoxestemp[d].name = "Pixel Foxes " + displayfaucetfoxestemp[d].name.substring(4);
+            }
+          }
           displayfaucetfoxestemp[d].owner = ppp[i].owner;
           let own = ppp[i].owner;
           displayfaucetfoxestemp[d].ownerlink = "https://whatsonchain.com/address/" + own;
@@ -390,13 +406,29 @@ const TagSearchResults = ({ showactions, setsearchloading, passedFunctionFromFil
             displayfaucetfoxestemp[d].link = "https://alpha.1satordinals.com/outpoint/" + ppp[i].origin.outpoint + "/inscription";
             displayfaucetfoxestemp[d].imgid = ppp[i].origin.outpoint;
             const traits = ppp[i].origin.data.map.subTypeData.traits;
-            displayfaucetfoxestemp[d].trait1 = traits && traits[0] ? traits[0].value : "";
-            displayfaucetfoxestemp[d].trait2 = traits && traits[1] ? traits[1].value : "";
-            displayfaucetfoxestemp[d].trait3 = traits && traits[2] ? traits[2].value : "";
-            displayfaucetfoxestemp[d].trait4 = traits && traits[3] ? traits[3].value : "";
-            displayfaucetfoxestemp[d].trait5 = traits && traits[4] ? traits[4].value : "";
-            displayfaucetfoxestemp[d].trait6 = traits && traits[5] ? traits[5].value : "";
-            displayfaucetfoxestemp[d].trait7 = traits && traits[6] ? traits[6].value : "";
+            // Check if traits exist and have proper structure with all 7 traits
+            if (traits && Array.isArray(traits) && traits.length >= 6) {
+              displayfaucetfoxestemp[d].trait1 = traits[0] && traits[0].value ? traits[0].value : " ";
+              displayfaucetfoxestemp[d].trait2 = traits[1] && traits[1].value ? traits[1].value : " ";
+              displayfaucetfoxestemp[d].trait3 = traits[2] && traits[2].value ? traits[2].value : " ";
+              displayfaucetfoxestemp[d].trait4 = traits[3] && traits[3].value ? traits[3].value : " ";
+              displayfaucetfoxestemp[d].trait5 = traits[4] && traits[4].value ? traits[4].value : " ";
+              displayfaucetfoxestemp[d].trait6 = traits[5] && traits[5].value ? traits[5].value : " ";
+              displayfaucetfoxestemp[d].trait7 = traits[6] && traits[6].value ? traits[6].value : "none";
+            } else {
+              // If no traits, invalid structure, or fewer than 6 traits, set all to non-breaking spaces
+              displayfaucetfoxestemp[d].trait1 = "\u00A0";
+              displayfaucetfoxestemp[d].trait2 = "\u00A0";
+              displayfaucetfoxestemp[d].trait3 = "\u00A0";
+              displayfaucetfoxestemp[d].trait4 = "\u00A0";
+              displayfaucetfoxestemp[d].trait5 = "\u00A0";
+              displayfaucetfoxestemp[d].trait6 = "\u00A0";
+              displayfaucetfoxestemp[d].trait7 = "\u00A0";
+              // Modify the name for foxes with incomplete traits
+              if (displayfaucetfoxestemp[d].name && displayfaucetfoxestemp[d].name.startsWith("Fox #")) {
+                displayfaucetfoxestemp[d].name = "Pixel Foxes " + displayfaucetfoxestemp[d].name.substring(4);
+              }
+            }
             displayfaucetfoxestemp[d].owner = ppp[i].owner;
             let own = ppp[i].owner;
             displayfaucetfoxestemp[d].ownerlink = "https://whatsonchain.com/address/" + own;
